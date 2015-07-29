@@ -1,0 +1,145 @@
+@prefix fbirn: <http://www.birncommunity.org/collaborators/function-birn/> .
+@prefix ncit: <http://ncitt.ncit.nih.gov/> .
+@prefix nidash: <http://purl.org/nidash/nidm/> .
+@prefix nidm: <http://nidm.nidash.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nidash:activity_301882920 a prov:Activity ;
+    prov:label "Assessment data collection" ;
+    prov:wasAssociatedWith "collection_fbirn:Demographics_301882920",
+        "collection_fbirn:NAART_301882920" .
+
+nidash:activity_303269784 a prov:Activity ;
+    prov:label "Assessment data collection" ;
+    prov:wasAssociatedWith "collection_fbirn:Demographics_303269784",
+        "collection_fbirn:NAART_303269784" .
+
+nidash:activity_303851049 a prov:Activity ;
+    prov:label "Assessment data collection" ;
+    prov:wasAssociatedWith "collection_fbirn:Demographics_303851049",
+        "collection_fbirn:NAART_303851049" .
+
+nidash:activity_304253859 a prov:Activity ;
+    prov:label "Assessment data collection" ;
+    prov:wasAssociatedWith "collection_fbirn:Demographics_304253859",
+        "collection_fbirn:NAART_304253859" .
+
+nidash:activity_305738011 a prov:Activity ;
+    prov:label "Assessment data collection" ;
+    prov:wasAssociatedWith "collection_fbirn:Demographics_305738011",
+        "collection_fbirn:NAART_305738011" .
+
+nidash:agent_301882920 a prov:Agent ;
+    ncit:species "Homo sapien" ;
+    ncit:subjectID "301882920" ;
+    prov:type prov:Person ;
+    prov:wasAttributedTo "collection_fbirn:Demographics_301882920",
+        "collection_fbirn:NAART_301882920" .
+
+nidash:agent_303269784 a prov:Agent ;
+    ncit:species "Homo sapien" ;
+    ncit:subjectID "303269784" ;
+    prov:type prov:Person ;
+    prov:wasAttributedTo "collection_fbirn:Demographics_303269784",
+        "collection_fbirn:NAART_303269784" .
+
+nidash:agent_303851049 a prov:Agent ;
+    ncit:species "Homo sapien" ;
+    ncit:subjectID "303851049" ;
+    prov:type prov:Person ;
+    prov:wasAttributedTo "collection_fbirn:Demographics_303851049",
+        "collection_fbirn:NAART_303851049" .
+
+nidash:agent_304253859 a prov:Agent ;
+    ncit:species "Homo sapien" ;
+    ncit:subjectID "304253859" ;
+    prov:type prov:Person ;
+    prov:wasAttributedTo "collection_fbirn:Demographics_304253859",
+        "collection_fbirn:NAART_304253859" .
+
+nidash:agent_305738011 a prov:Agent ;
+    ncit:species "Homo sapien" ;
+    ncit:subjectID "305738011" ;
+    prov:type prov:Person ;
+    prov:wasAttributedTo "collection_fbirn:Demographics_305738011",
+        "collection_fbirn:NAART_305738011" .
+
+nidash:entity_301882920 a prov:Entity ;
+    ncit:Age "33" ;
+    ncit:Handedness "R" ;
+    fbirn:FSIQ "118.44" ;
+    fbirn:PIQ "114.36" ;
+    fbirn:VIQ "118.02" .
+
+nidash:entity_303269784 a prov:Entity ;
+    ncit:Age "24" ;
+    ncit:Handedness "L" ;
+    fbirn:FSIQ "123.12" ;
+    fbirn:PIQ "116.88" ;
+    fbirn:VIQ "123.36" .
+
+nidash:entity_303851049 a prov:Entity ;
+    ncit:Age "30" ;
+    ncit:Handedness "R" ;
+    fbirn:FSIQ "117.66" ;
+    fbirn:PIQ "113.94" ;
+    fbirn:VIQ "117.13" .
+
+nidash:entity_304253859 a prov:Entity ;
+    ncit:Age "24" ;
+    ncit:Handedness "R" ;
+    fbirn:FSIQ "112.2" ;
+    fbirn:PIQ "111" ;
+    fbirn:VIQ "110.9" .
+
+nidash:entity_305738011 a prov:Entity ;
+    ncit:Age "31" ;
+    ncit:Handedness "R" ;
+    fbirn:FSIQ "116.1" ;
+    fbirn:PIQ "113.1" ;
+    fbirn:VIQ "115.35" .
+
+"collection_fbirn:Demographics_301882920" a prov:collection ;
+    prov:hadMember "entity_301882920" ;
+    prov:label "fbirn:Demographics" .
+
+"collection_fbirn:Demographics_303269784" a prov:collection ;
+    prov:hadMember "entity_303269784" ;
+    prov:label "fbirn:Demographics" .
+
+"collection_fbirn:Demographics_303851049" a prov:collection ;
+    prov:hadMember "entity_303851049" ;
+    prov:label "fbirn:Demographics" .
+
+"collection_fbirn:Demographics_304253859" a prov:collection ;
+    prov:hadMember "entity_304253859" ;
+    prov:label "fbirn:Demographics" .
+
+"collection_fbirn:Demographics_305738011" a prov:collection ;
+    prov:hadMember "entity_305738011" ;
+    prov:label "fbirn:Demographics" .
+
+"collection_fbirn:NAART_301882920" a prov:collection ;
+    prov:hadMember "entity_301882920" ;
+    prov:label "fbirn:NAART" .
+
+"collection_fbirn:NAART_303269784" a prov:collection ;
+    prov:hadMember "entity_303269784" ;
+    prov:label "fbirn:NAART" .
+
+"collection_fbirn:NAART_303851049" a prov:collection ;
+    prov:hadMember "entity_303851049" ;
+    prov:label "fbirn:NAART" .
+
+"collection_fbirn:NAART_304253859" a prov:collection ;
+    prov:hadMember "entity_304253859" ;
+    prov:label "fbirn:NAART" .
+
+"collection_fbirn:NAART_305738011" a prov:collection ;
+    prov:hadMember "entity_305738011" ;
+    prov:label "fbirn:NAART" .
+

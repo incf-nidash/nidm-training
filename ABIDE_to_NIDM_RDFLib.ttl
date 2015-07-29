@@ -1,0 +1,145 @@
+@prefix abide: <http://fcon_1000.projects.nitrc.org/indi/abide/> .
+@prefix ncit: <http://ncitt.ncit.nih.gov/> .
+@prefix nidash: <http://purl.org/nidash/nidm/> .
+@prefix nidm: <http://nidm.nidash.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nidash:activity_CMU_50643 a prov:Activity ;
+    prov:label "Assessment data collection" ;
+    prov:wasAssociatedWith "collection_abide:Demographics_CMU_50643",
+        "collection_abide:WASI_CMU_50643" .
+
+nidash:activity_CMU_50644 a prov:Activity ;
+    prov:label "Assessment data collection" ;
+    prov:wasAssociatedWith "collection_abide:Demographics_CMU_50644",
+        "collection_abide:WASI_CMU_50644" .
+
+nidash:activity_CMU_50645 a prov:Activity ;
+    prov:label "Assessment data collection" ;
+    prov:wasAssociatedWith "collection_abide:Demographics_CMU_50645",
+        "collection_abide:WASI_CMU_50645" .
+
+nidash:activity_CMU_50646 a prov:Activity ;
+    prov:label "Assessment data collection" ;
+    prov:wasAssociatedWith "collection_abide:Demographics_CMU_50646",
+        "collection_abide:WASI_CMU_50646" .
+
+nidash:activity_CMU_50647 a prov:Activity ;
+    prov:label "Assessment data collection" ;
+    prov:wasAssociatedWith "collection_abide:Demographics_CMU_50647",
+        "collection_abide:WASI_CMU_50647" .
+
+nidash:agent_CMU_50643 a prov:Agent ;
+    ncit:species "Homo sapien" ;
+    ncit:subjectID "CMU_50643" ;
+    prov:type prov:Person ;
+    prov:wasAttributedTo "collection_abide:Demographics_CMU_50643",
+        "collection_abide:WASI_CMU_50643" .
+
+nidash:agent_CMU_50644 a prov:Agent ;
+    ncit:species "Homo sapien" ;
+    ncit:subjectID "CMU_50644" ;
+    prov:type prov:Person ;
+    prov:wasAttributedTo "collection_abide:Demographics_CMU_50644",
+        "collection_abide:WASI_CMU_50644" .
+
+nidash:agent_CMU_50645 a prov:Agent ;
+    ncit:species "Homo sapien" ;
+    ncit:subjectID "CMU_50645" ;
+    prov:type prov:Person ;
+    prov:wasAttributedTo "collection_abide:Demographics_CMU_50645",
+        "collection_abide:WASI_CMU_50645" .
+
+nidash:agent_CMU_50646 a prov:Agent ;
+    ncit:species "Homo sapien" ;
+    ncit:subjectID "CMU_50646" ;
+    prov:type prov:Person ;
+    prov:wasAttributedTo "collection_abide:Demographics_CMU_50646",
+        "collection_abide:WASI_CMU_50646" .
+
+nidash:agent_CMU_50647 a prov:Agent ;
+    ncit:species "Homo sapien" ;
+    ncit:subjectID "CMU_50647" ;
+    prov:type prov:Person ;
+    prov:wasAttributedTo "collection_abide:Demographics_CMU_50647",
+        "collection_abide:WASI_CMU_50647" .
+
+nidash:entity_CMU_50643 a prov:Entity ;
+    abide:ABIDE_FIQ "123" ;
+    abide:ABIDE_PIQ "128" ;
+    abide:ABIDE_VIQ "112" ;
+    ncit:Age "21" ;
+    ncit:Handedness "R" .
+
+nidash:entity_CMU_50644 a prov:Entity ;
+    abide:ABIDE_FIQ "107" ;
+    abide:ABIDE_PIQ "102" ;
+    abide:ABIDE_VIQ "110" ;
+    ncit:Age "19" ;
+    ncit:Handedness "R" .
+
+nidash:entity_CMU_50645 a prov:Entity ;
+    abide:ABIDE_FIQ "124" ;
+    abide:ABIDE_PIQ "115" ;
+    abide:ABIDE_VIQ "128" ;
+    ncit:Age "20" ;
+    ncit:Handedness "R" .
+
+nidash:entity_CMU_50646 a prov:Entity ;
+    abide:ABIDE_FIQ "108" ;
+    abide:ABIDE_PIQ "115" ;
+    abide:ABIDE_VIQ "100" ;
+    ncit:Age "21" ;
+    ncit:Handedness "R" .
+
+nidash:entity_CMU_50647 a prov:Entity ;
+    abide:ABIDE_FIQ "104" ;
+    abide:ABIDE_PIQ "109" ;
+    abide:ABIDE_VIQ "97" ;
+    ncit:Age "27" ;
+    ncit:Handedness "R" .
+
+"collection_abide:Demographics_CMU_50643" a prov:collection ;
+    prov:hadMember "entity_CMU_50643" ;
+    prov:label "abide:Demographics" .
+
+"collection_abide:Demographics_CMU_50644" a prov:collection ;
+    prov:hadMember "entity_CMU_50644" ;
+    prov:label "abide:Demographics" .
+
+"collection_abide:Demographics_CMU_50645" a prov:collection ;
+    prov:hadMember "entity_CMU_50645" ;
+    prov:label "abide:Demographics" .
+
+"collection_abide:Demographics_CMU_50646" a prov:collection ;
+    prov:hadMember "entity_CMU_50646" ;
+    prov:label "abide:Demographics" .
+
+"collection_abide:Demographics_CMU_50647" a prov:collection ;
+    prov:hadMember "entity_CMU_50647" ;
+    prov:label "abide:Demographics" .
+
+"collection_abide:WASI_CMU_50643" a prov:collection ;
+    prov:hadMember "entity_CMU_50643" ;
+    prov:label "abide:WASI" .
+
+"collection_abide:WASI_CMU_50644" a prov:collection ;
+    prov:hadMember "entity_CMU_50644" ;
+    prov:label "abide:WASI" .
+
+"collection_abide:WASI_CMU_50645" a prov:collection ;
+    prov:hadMember "entity_CMU_50645" ;
+    prov:label "abide:WASI" .
+
+"collection_abide:WASI_CMU_50646" a prov:collection ;
+    prov:hadMember "entity_CMU_50646" ;
+    prov:label "abide:WASI" .
+
+"collection_abide:WASI_CMU_50647" a prov:collection ;
+    prov:hadMember "entity_CMU_50647" ;
+    prov:label "abide:WASI" .
+
