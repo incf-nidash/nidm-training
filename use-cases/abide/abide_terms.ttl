@@ -24,4 +24,4 @@ abide:ABIDE_VIQ a prov:Entity ;
     abide:form "WASI" ;
     abide:term "ABIDE_VIQ" ;
     prov:definition "VIQ Standard Score" ;
-    prov:label "ABIDE vocabulary term" .
+    prov:label "ABIDE vcabulary term" .
