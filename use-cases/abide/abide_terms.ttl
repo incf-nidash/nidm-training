@@ -9,7 +9,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abide:ABIDE_FSIQ a prov:Entity ;
-    abide:form "WASI" ;
+    abide:form "WASImorii" ;
     abide:term "ABIDE_FIQ" ;
     prov:definition "FIQ Standard Score" ;
     prov:label "ABIDE vocabulary term" .
