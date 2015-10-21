@@ -43,6 +43,7 @@ Note, demo should be running after following installation instructions above
 - Type "virtuoso-t -f &"
 
 - From host machine point browser to:
+
   -Web application: http://127.0.0.1:4567
   -Virtuoso Conductor: http://127.0.0.1:8890/conductor/
     - user: dba
