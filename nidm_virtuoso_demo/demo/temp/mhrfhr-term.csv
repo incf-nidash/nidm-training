@@ -1,0 +1,13 @@
+Term, PrefTerm, Definition, URL 
+ERT,Emotion Recognition Task,"Emotion Recognition Task- task of social cognition which measures the ability to identify emotions in facial expressions. Subject is shown a series of stimuli, which are computer morphed images derived from facial features of real individuals displaying specific emotions (90 faces in total, each shown once in each block, for a total of 180 stimuli). Participants are asked to indicate the emotional expression displayed on each face (anger, happiness, sadness, fear, surprise, or disgust). For each emotion there are 15 different stimuli, ordered such that higher levels are more easily recognizable as displaying that emotion. ",
+FHR,Fetal heart rate,Fetal heart rate,
+FMI,Fetal Movement Index,Arbitrary value with two levels (akin to mild and moderate movement); no motion = no data,
+MHR,Mother's heart rate,Mother's heart rate,
+REST,REST,"10 min rest period: Participant is seated in an armchair, listening to classical music, and asked to relax. Normal lighting. Eyes are open or closed. ",
+SOC,Stockings of Cambridge,"Stockings of Cambridge- test of spatial planning and spatial working memory, which gives a measure of frontal lobe function. Subject is shown two displays containing three colored balls. Subject must manipulate the balls in her set to match the computers' version, with patterns increasing in difficulty (e.g., number of moves required). Very similar to Tower of London.  ",
+SPO2,Maternal blood oxygen level,Maternal blood oxygen level,
+T0,Gestaion Term 0,9-11 weeks' gestation,
+T1,Gestaion Term 1,15 weeks' gestation,
+T2,Gestation Term 2,25 weeks' gestation,
+T3,Gestation Term 3,35 weeks' gestation,
+TOCO,TOCO,Measures uterine contractions @ rate of 4 samples per second (value = 0-100; relative units),

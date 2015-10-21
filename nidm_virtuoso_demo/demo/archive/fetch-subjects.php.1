@@ -1,0 +1,40 @@
+<?php
+  //require_once( "lib/sparqllib.php" );
+  require './lib/rdf-db.php';
+
+  $db = sparql_connect( "http://192.168.33.10:8890/sparql/" );
+  if( !$db ) { print sparql_errno() . ": " . sparql_error(). "\n"; exit; }
+
+  sparql_ns("cml", "http://www.connectomics.org/cff-2/");
+  $sparql ="SELECT ?species ?timepoint ?subject_id  FROM <http://iri.conte.cff.org/>
+           WHERE { ?connectome cml:species ?species;
+                    cml:timepoint ?timepoint;
+                    cml:subject_name ?subject_id . } ";
+
+  $result = sparql_query( $sparql );
+  if( !$result ) { print sparql_errno() . ": " . sparql_error(). "\n"; exit; }
+
+  $fields = sparql_field_array( $result );
+  //$data = get_subjects();
+  $numrows = sparql_num_rows( $result );
+
+  $data = array();
+  echo $numrows.' records found.';
+  while( $row = sparql_fetch_array( $result ) )
+  {
+    array_push($data,$row);
+  }
+
+  echo "<table class='gridtable'>";
+  echo "<tr><th>Subject ID</th><th>Timepoint</th><th>Species</th></tr>";
+  for($ri = 0; $ri < $numrows; $ri++) {
+    $row = $data[$ri];
+    echo "<tr>";
+    echo "<td>".$row['subject_id']."</td>";
+    echo "<td>".$row['timepoint']."</td>";
+    echo "<td>".$row['species']."</td>";
+    echo "</tr>";
+  }
+  echo '</table>';
+?>
+

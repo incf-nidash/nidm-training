@@ -1,0 +1,1 @@
+mri_convert /gl/med/tvanerp/abide/t1/freesurfer/0050299/mri/rawavg.mgz /gl/med/tvanerp/abide/t1/freesurfer/0050299/mri/orig.mgz --conform

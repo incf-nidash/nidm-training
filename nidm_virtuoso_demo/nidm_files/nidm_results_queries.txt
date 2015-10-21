@@ -1,0 +1,117 @@
+PREFIX nidm: <http://www.incf.org/ns/nidash/nidm#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+select ?entity where
+{ ?entity a prov:Entity .
+  
+
+}
+
+
+prefix prov: <http://www.w3.org/ns/prov#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix nidm: <http://purl.org/nidash/nidm#>
+prefix niiri: <http://iri.nidash.org/>
+prefix spm: <http://purl.org/nidash/spm#>
+prefix neurolex: <http://neurolex.org/wiki/>
+prefix crypto: <http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions#>
+prefix dct: <http://purl.org/dc/terms/>
+prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#>
+prefix dc: <http://purl.org/dc/elements/1.1/>
+prefix dctype: <http://purl.org/dc/dcmitype/>
+prefix obo: <http://purl.obolibrary.org/obo/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix dcat: <http://www.w3.org/ns/dcat#>
+prefix peak: <http://purl.org/nidash/nidm#NIDM_0000062>
+prefix significant_cluster: <http://purl.org/nidash/nidm#NIDM_0000070>
+prefix coordinate: <http://purl.org/nidash/nidm#NIDM_0000086>
+prefix equivalent_zstatistic: <http://purl.org/nidash/nidm#NIDM_0000092>
+prefix pvalue_fwer: <http://purl.org/nidash/nidm#NIDM_0000115>
+prefix pvalue_uncorrected: <http://purl.org/nidash/nidm#NIDM_0000116>
+prefix statistic_map: <http://purl.org/nidash/nidm#NIDM_0000076>
+prefix statistic_type: <http://purl.org/nidash/nidm#NIDM_0000123>
+prefix coordinateVector: <http://purl.org/nidash/nidm#NIDM_0000086>
+
+SELECT DISTINCT ?value ?cluster ?peak ?x ?equiv_z ?pval_fwer ?stat WHERE
+{ 
+  ?contrast_estimation a nidm:NIDM_0000001;
+      prov:used ?contrast_id .
+  ?spm_result a nidm:NIDM_0000027;
+      dcat:accessURL ?url .
+  niiri:contrast_id rdfs:label ?value .
+  ?peak a peak: .
+  ?cluster a significant_cluster: .
+  ?peak prov:wasDerivedFrom ?cluster .
+  ?peak prov:atLocation ?coordinate .
+  ?coordinate coordinateVector: ?x .
+  ?peak equivalent_zstatistic: ?equiv_z .
+  ?peak pvalue_fwer: ?pval_fwer .
+  ?cluster prov:wasDerivedFrom/prov:wasGeneratedBy/prov:used ?statmap .
+  FILTER regex(?value,'Con6: ctrl demean','i')
+}
+ORDER BY ?cluster ?peak
+
+
+
+
+
+prefix prov: <http://www.w3.org/ns/prov#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix nidm: <http://purl.org/nidash/nidm#>
+prefix niiri: <http://iri.nidash.org/>
+prefix spm: <http://purl.org/nidash/spm#>
+prefix neurolex: <http://neurolex.org/wiki/>
+prefix crypto: <http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions#>
+prefix dct: <http://purl.org/dc/terms/>
+prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#>
+prefix dc: <http://purl.org/dc/elements/1.1/>
+prefix dctype: <http://purl.org/dc/dcmitype/>
+prefix obo: <http://purl.obolibrary.org/obo/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix dcat: <http://www.w3.org/ns/dcat#>
+prefix peak: <http://purl.org/nidash/nidm#NIDM_0000062>
+prefix significant_cluster: <http://purl.org/nidash/nidm#NIDM_0000070>
+prefix coordinate: <http://purl.org/nidash/nidm#NIDM_0000086>
+prefix equivalent_zstatistic: <http://purl.org/nidash/nidm#NIDM_0000092>
+prefix pvalue_fwer: <http://purl.org/nidash/nidm#NIDM_0000115>
+prefix pvalue_uncorrected: <http://purl.org/nidash/nidm#NIDM_0000116>
+prefix statistic_map: <http://purl.org/nidash/nidm#NIDM_0000076>
+prefix statistic_type: <http://purl.org/nidash/nidm#NIDM_0000123>
+prefix coordinateVector: <http://purl.org/nidash/nidm#NIDM_0000086>
+
+SELECT DISTINCT ?value ?cluster ?peak ?x ?equiv_z ?pval_fwer ?stat WHERE
+{ 
+  ?contrast_estimation a nidm:NIDM_0000001;
+      prov:used ?contrast_id .
+  ?spm_result a nidm:NIDM_0000027;
+      dcat:accessURL ?url .
+  niiri:contrast_id rdfs:label ?value .
+  ?peak a peak: .
+  ?cluster a significant_cluster: .
+  ?peak prov:wasDerivedFrom ?cluster .
+  ?peak prov:atLocation ?coordinate .
+  ?coordinate coordinateVector: ?x .
+  ?peak equivalent_zstatistic: ?equiv_z .
+  ?peak pvalue_fwer: ?pval_fwer .
+  ?cluster prov:wasDerivedFrom/prov:wasGeneratedBy/prov:used ?statmap .
+  ?statmap a statistic_map: .
+  ?statmap statistic_type: ?stat .
+  ?statmap rdfs:label ?value .
+  FILTER regex(?value,'Con1: pumps realRT','i')
+}
+ORDER BY ?cluster ?peak
+
+
+#number of triples
+SELECT (COUNT(*) AS ?no) { ?s ?p ?o  }
+
+#find all contrasts in nidm results
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+
+select distinct ?p
+where
+{ ?s a obo:STATO_0000323;
+     rdfs:label ?p
+ 
+}

@@ -1,0 +1,540 @@
+@prefix cff: <http://www.contecenter.org/ns/cff#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ncit: <http://ncitt.ncit.nih.gov/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.contecenter.org/ns/cff#31e976ff62e411e5bf7e7071bc451d31> a prov:Collection,
+        prov:Entity ;
+    rdfs:label "Connectome cml tags contained in cff file" ;
+    prov:hadMember <http://www.contecenter.org/ns/cff#31e9770062e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9770162e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9770262e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9770362e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9770462e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9770562e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9770662e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9770762e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9770862e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9770962e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9770a62e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9770b62e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9770c62e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9770d62e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9770e62e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9770f62e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9771062e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9771162e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9771262e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9771362e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9771462e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9771562e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9771662e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9771762e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9771862e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9771962e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9771a62e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9771b62e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9771c62e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9771d62e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9771e62e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9771f62e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9772062e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9772162e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9772262e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9772362e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9772462e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9772562e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9772662e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9772762e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9772862e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9772962e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9772a62e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9772b62e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9772c62e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9772d62e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9772e62e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9772f62e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9773062e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9773162e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9773262e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9773362e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9773462e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9773562e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9773662e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9773762e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9773862e411e5bf7e7071bc451d31>,
+        <http://www.contecenter.org/ns/cff#31e9773962e411e5bf7e7071bc451d31> ;
+    prov:wasDerivedFrom <http://www.contecenter.org/ns/cff#31e976fe62e411e5bf7e7071bc451d31> .
+
+<http://www.contecenter.org/ns/cff#31e976fe62e411e5bf7e7071bc451d31> a prov:Entity,
+        prov:File ;
+    rdfs:label "CFF (Connectome File Format) file generated by Conte Center" ;
+    prov:atLocation "/home/dbkeator/temp/0050299/meta.cml"^^xsd:String .
+
+<http://www.contecenter.org/ns/cff#31e9770062e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome meta" ;
+    ncit:species "Homo sapiens" ;
+    ncit:subjectID "0050299" ;
+    ncit:timepoint "tp1" .
+
+<http://www.contecenter.org/ns/cff#31e9770162e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome volume" ;
+    ncit:dataType "T1-weighted" ;
+    ncit:source "CVolume/raw_t1_image.nii.gz" ;
+    cff:fileFormat "Nifti1GZ" ;
+    cff:fileType "Raw T1 image" .
+
+<http://www.contecenter.org/ns/cff#31e9770262e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome volume" ;
+    ncit:dataType "FA" ;
+    ncit:source "CVolume/fa_scalar_map.nii.gz" ;
+    cff:fileFormat "Nifti1GZ" ;
+    cff:fileType "FA Scalar Map" .
+
+<http://www.contecenter.org/ns/cff#31e9770362e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome volume" ;
+    ncit:dataType "ADC" ;
+    ncit:source "CVolume/adc_scalar_map.nii.gz" ;
+    cff:fileFormat "Nifti1GZ" ;
+    cff:fileType "ADC Scalar Map" .
+
+<http://www.contecenter.org/ns/cff#31e9770462e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome volume" ;
+    ncit:dataType "Segmentation" ;
+    ncit:source "CVolume/aseg_segmentation_volume.nii.gz" ;
+    cff:fileFormat "Nifti1GZ" ;
+    cff:fileType "Aseg segmentation volume" .
+
+<http://www.contecenter.org/ns/cff#31e9770562e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome volume" ;
+    ncit:dataType "Segmentation" ;
+    ncit:source "CVolume/ribbon_segmentation_volume.nii.gz" ;
+    cff:fileFormat "Nifti1GZ" ;
+    cff:fileType "Ribbon segmentation volume" .
+
+<http://www.contecenter.org/ns/cff#31e9770662e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome volume" ;
+    ncit:dataType "Segmentation" ;
+    ncit:source "CVolume/white_matter_mask.nii.gz" ;
+    cff:fileFormat "Nifti1GZ" ;
+    cff:fileType "White matter mask" .
+
+<http://www.contecenter.org/ns/cff#31e9770762e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome volume" ;
+    ncit:dataType "Segmentation" ;
+    ncit:source "CVolume/cc_and_unknown.nii.gz" ;
+    cff:fileFormat "Nifti1GZ" ;
+    cff:fileType "CC and Unknown" .
+
+<http://www.contecenter.org/ns/cff#31e9770862e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome volume" ;
+    ncit:dataType "Segmentation" ;
+    ncit:source "CVolume/roi_volume_scale500.nii.gz" ;
+    cff:fileFormat "Nifti1GZ" ;
+    cff:fileType "ROI Volume scale500" .
+
+<http://www.contecenter.org/ns/cff#31e9770962e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome volume" ;
+    ncit:dataType "Segmentation" ;
+    ncit:source "CVolume/roi_volume_scale250.nii.gz" ;
+    cff:fileFormat "Nifti1GZ" ;
+    cff:fileType "ROI Volume scale250" .
+
+<http://www.contecenter.org/ns/cff#31e9770a62e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome volume" ;
+    ncit:dataType "Segmentation" ;
+    ncit:source "CVolume/roi_volume_scale125.nii.gz" ;
+    cff:fileFormat "Nifti1GZ" ;
+    cff:fileType "ROI Volume scale125" .
+
+<http://www.contecenter.org/ns/cff#31e9770b62e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome volume" ;
+    ncit:dataType "Segmentation" ;
+    ncit:source "CVolume/roi_volume_scale60.nii.gz" ;
+    cff:fileFormat "Nifti1GZ" ;
+    cff:fileType "ROI Volume scale60" .
+
+<http://www.contecenter.org/ns/cff#31e9770c62e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome volume" ;
+    ncit:dataType "Segmentation" ;
+    ncit:source "CVolume/roi_volume_scale33.nii.gz" ;
+    cff:fileFormat "Nifti1GZ" ;
+    cff:fileType "ROI Volume scale33" .
+
+<http://www.contecenter.org/ns/cff#31e9770d62e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome volume" ;
+    ncit:dataType "Segmentation" ;
+    ncit:source "CVolume/roi_scale_scale500_(b0_space).nii.gz" ;
+    cff:fileFormat "Nifti1GZ" ;
+    cff:fileType "ROI Scale scale500 (b0 space)" .
+
+<http://www.contecenter.org/ns/cff#31e9770e62e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome volume" ;
+    ncit:dataType "Segmentation" ;
+    ncit:source "CVolume/roi_scale_scale250_(b0_space).nii.gz" ;
+    cff:fileFormat "Nifti1GZ" ;
+    cff:fileType "ROI Scale scale250 (b0 space)" .
+
+<http://www.contecenter.org/ns/cff#31e9770f62e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome volume" ;
+    ncit:dataType "Segmentation" ;
+    ncit:source "CVolume/roi_scale_scale125_(b0_space).nii.gz" ;
+    cff:fileFormat "Nifti1GZ" ;
+    cff:fileType "ROI Scale scale125 (b0 space)" .
+
+<http://www.contecenter.org/ns/cff#31e9771062e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome volume" ;
+    ncit:dataType "Segmentation" ;
+    ncit:source "CVolume/roi_scale_scale60_(b0_space).nii.gz" ;
+    cff:fileFormat "Nifti1GZ" ;
+    cff:fileType "ROI Scale scale60 (b0 space)" .
+
+<http://www.contecenter.org/ns/cff#31e9771162e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome volume" ;
+    ncit:dataType "Segmentation" ;
+    ncit:source "CVolume/roi_scale_scale33_(b0_space).nii.gz" ;
+    cff:fileFormat "Nifti1GZ" ;
+    cff:fileType "ROI Scale scale33 (b0 space)" .
+
+<http://www.contecenter.org/ns/cff#31e9771262e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome track" ;
+    ncit:dataType "OriginalFibers" ;
+    ncit:source "CTrack/original_tractography.trk" ;
+    cff:fileFormat "TrackVis" ;
+    cff:fileType "Original Tractography" .
+
+<http://www.contecenter.org/ns/cff#31e9771362e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome track" ;
+    ncit:dataType "FilteredFibers" ;
+    ncit:source "CTrack/filtered_tractography.trk" ;
+    cff:fileFormat "TrackVis" ;
+    cff:fileType "Filtered Tractography" .
+
+<http://www.contecenter.org/ns/cff#31e9771462e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome track" ;
+    ncit:dataType "FinalFibers" ;
+    ncit:source "CTrack/final_tractography_(scale500).trk" ;
+    cff:fileFormat "TrackVis" ;
+    cff:fileType "Final Tractography (scale500)" .
+
+<http://www.contecenter.org/ns/cff#31e9771562e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome track" ;
+    ncit:dataType "FinalFibers" ;
+    ncit:source "CTrack/final_tractography_(scale250).trk" ;
+    cff:fileFormat "TrackVis" ;
+    cff:fileType "Final Tractography (scale250)" .
+
+<http://www.contecenter.org/ns/cff#31e9771662e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome track" ;
+    ncit:dataType "FinalFibers" ;
+    ncit:source "CTrack/final_tractography_(scale125).trk" ;
+    cff:fileFormat "TrackVis" ;
+    cff:fileType "Final Tractography (scale125)" .
+
+<http://www.contecenter.org/ns/cff#31e9771762e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome track" ;
+    ncit:dataType "FinalFibers" ;
+    ncit:source "CTrack/final_tractography_(scale60).trk" ;
+    cff:fileFormat "TrackVis" ;
+    cff:fileType "Final Tractography (scale60)" .
+
+<http://www.contecenter.org/ns/cff#31e9771862e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome track" ;
+    ncit:dataType "FinalFibers" ;
+    ncit:source "CTrack/final_tractography_(scale33).trk" ;
+    cff:fileFormat "TrackVis" ;
+    cff:fileType "Final Tractography (scale33)" .
+
+<http://www.contecenter.org/ns/cff#31e9771962e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome network" ;
+    ncit:dataType "AttributeNetwork" ;
+    ncit:source "CNetwork/connectome_scale500.gpickle" ;
+    cff:fileFormat "NXGPickle" ;
+    cff:fileType "connectome_scale500" .
+
+<http://www.contecenter.org/ns/cff#31e9771a62e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome network" ;
+    ncit:dataType "AttributeNetwork" ;
+    ncit:source "CNetwork/connectome_scale250.gpickle" ;
+    cff:fileFormat "NXGPickle" ;
+    cff:fileType "connectome_scale250" .
+
+<http://www.contecenter.org/ns/cff#31e9771b62e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome network" ;
+    ncit:dataType "AttributeNetwork" ;
+    ncit:source "CNetwork/connectome_scale125.gpickle" ;
+    cff:fileFormat "NXGPickle" ;
+    cff:fileType "connectome_scale125" .
+
+<http://www.contecenter.org/ns/cff#31e9771c62e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome network" ;
+    ncit:dataType "AttributeNetwork" ;
+    ncit:source "CNetwork/connectome_scale60.gpickle" ;
+    cff:fileFormat "NXGPickle" ;
+    cff:fileType "connectome_scale60" .
+
+<http://www.contecenter.org/ns/cff#31e9771d62e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome network" ;
+    ncit:dataType "AttributeNetwork" ;
+    ncit:source "CNetwork/connectome_scale33.gpickle" ;
+    cff:fileFormat "NXGPickle" ;
+    cff:fileType "connectome_scale33" .
+
+<http://www.contecenter.org/ns/cff#31e9771e62e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome surface" ;
+    ncit:dataType "Surfaceset" ;
+    ncit:source "CSurface/surface_rh.pial.gii" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Surface rh.pial" .
+
+<http://www.contecenter.org/ns/cff#31e9771f62e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome surface" ;
+    ncit:dataType "Surfaceset" ;
+    ncit:source "CSurface/surface_lh.pial.gii" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Surface lh.pial" .
+
+<http://www.contecenter.org/ns/cff#31e9772062e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome surface" ;
+    ncit:dataType "Surfaceset" ;
+    ncit:source "CSurface/surface_rh.inflated.gii" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Surface rh.inflated" .
+
+<http://www.contecenter.org/ns/cff#31e9772162e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome surface" ;
+    ncit:dataType "Surfaceset" ;
+    ncit:source "CSurface/surface_lh.inflated.gii" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Surface lh.inflated" .
+
+<http://www.contecenter.org/ns/cff#31e9772262e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome surface" ;
+    ncit:dataType "Surfaceset" ;
+    ncit:source "CSurface/surface_rh.sphere.gii" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Surface rh.sphere" .
+
+<http://www.contecenter.org/ns/cff#31e9772362e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome surface" ;
+    ncit:dataType "Surfaceset" ;
+    ncit:source "CSurface/surface_lh.sphere.gii" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Surface lh.sphere" .
+
+<http://www.contecenter.org/ns/cff#31e9772462e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome surface" ;
+    ncit:dataType "Surfaceset" ;
+    ncit:source "CSurface/surface_rh.white.gii" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Surface rh.white" .
+
+<http://www.contecenter.org/ns/cff#31e9772562e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome surface" ;
+    ncit:dataType "Surfaceset" ;
+    ncit:source "CSurface/surface_lh.white.gii" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Surface lh.white" .
+
+<http://www.contecenter.org/ns/cff#31e9772662e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome surface" ;
+    ncit:dataType "Labels" ;
+    ncit:source "CSurface/surface_label_lh.aparc.annot.gii" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Surface Label lh.aparc.annot" .
+
+<http://www.contecenter.org/ns/cff#31e9772762e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome surface" ;
+    ncit:dataType "Labels" ;
+    ncit:source "CSurface/surface_label_rh.aparc.annot.gii" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Surface Label rh.aparc.annot" .
+
+<http://www.contecenter.org/ns/cff#31e9772862e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome data" ;
+    ncit:dataType "FiberLabels" ;
+    ncit:source "CData/final_fiber_labels_(scale500).npy" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Final fiber labels (scale500)" .
+
+<http://www.contecenter.org/ns/cff#31e9772962e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome data" ;
+    ncit:dataType "FiberLength" ;
+    ncit:source "CData/final_fiber_lengths_(scale500).npy" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Final fiber lengths (scale500)" .
+
+<http://www.contecenter.org/ns/cff#31e9772a62e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome data" ;
+    ncit:dataType "FiberLabels" ;
+    ncit:source "CData/final_fiber_labels_(scale250).npy" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Final fiber labels (scale250)" .
+
+<http://www.contecenter.org/ns/cff#31e9772b62e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome data" ;
+    ncit:dataType "FiberLength" ;
+    ncit:source "CData/final_fiber_lengths_(scale250).npy" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Final fiber lengths (scale250)" .
+
+<http://www.contecenter.org/ns/cff#31e9772c62e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome data" ;
+    ncit:dataType "FiberLabels" ;
+    ncit:source "CData/final_fiber_labels_(scale125).npy" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Final fiber labels (scale125)" .
+
+<http://www.contecenter.org/ns/cff#31e9772d62e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome data" ;
+    ncit:dataType "FiberLength" ;
+    ncit:source "CData/final_fiber_lengths_(scale125).npy" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Final fiber lengths (scale125)" .
+
+<http://www.contecenter.org/ns/cff#31e9772e62e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome data" ;
+    ncit:dataType "FiberLabels" ;
+    ncit:source "CData/final_fiber_labels_(scale60).npy" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Final fiber labels (scale60)" .
+
+<http://www.contecenter.org/ns/cff#31e9772f62e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome data" ;
+    ncit:dataType "FiberLength" ;
+    ncit:source "CData/final_fiber_lengths_(scale60).npy" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Final fiber lengths (scale60)" .
+
+<http://www.contecenter.org/ns/cff#31e9773062e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome data" ;
+    ncit:dataType "FiberLabels" ;
+    ncit:source "CData/final_fiber_labels_(scale33).npy" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Final fiber labels (scale33)" .
+
+<http://www.contecenter.org/ns/cff#31e9773162e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome data" ;
+    ncit:dataType "FiberLength" ;
+    ncit:source "CData/final_fiber_lengths_(scale33).npy" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Final fiber lengths (scale33)" .
+
+<http://www.contecenter.org/ns/cff#31e9773262e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome data" ;
+    ncit:dataType "FilteredFiberLengthArray" ;
+    ncit:source "CData/filtered_fiber_length.npy" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Filtered fiber length" .
+
+<http://www.contecenter.org/ns/cff#31e9773362e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome data" ;
+    ncit:dataType "FiberEndpoints" ;
+    ncit:source "CData/filtered_fiber_endpoints_(mm).npy" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Filtered fiber endpoints (mm)" .
+
+<http://www.contecenter.org/ns/cff#31e9773462e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome data" ;
+    ncit:dataType "FiberCurvature" ;
+    ncit:source "CData/fiber_mean_curvature.npy" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Fiber mean curvature" .
+
+<http://www.contecenter.org/ns/cff#31e9773562e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome data" ;
+    ncit:dataType "FiberLabels" ;
+    ncit:source "CData/filtered_fiber_labels_(scale500).npy" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Filtered fiber labels (scale500)" .
+
+<http://www.contecenter.org/ns/cff#31e9773662e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome data" ;
+    ncit:dataType "FiberLabels" ;
+    ncit:source "CData/filtered_fiber_labels_(scale250).npy" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Filtered fiber labels (scale250)" .
+
+<http://www.contecenter.org/ns/cff#31e9773762e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome data" ;
+    ncit:dataType "FiberLabels" ;
+    ncit:source "CData/filtered_fiber_labels_(scale125).npy" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Filtered fiber labels (scale125)" .
+
+<http://www.contecenter.org/ns/cff#31e9773862e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome data" ;
+    ncit:dataType "FiberLabels" ;
+    ncit:source "CData/filtered_fiber_labels_(scale60).npy" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Filtered fiber labels (scale60)" .
+
+<http://www.contecenter.org/ns/cff#31e9773962e411e5bf7e7071bc451d31> a prov:DataItem,
+        prov:Entity ;
+    rdfs:label "Connectome data" ;
+    ncit:dataType "FiberLabels" ;
+    ncit:source "CData/filtered_fiber_labels_(scale33).npy" ;
+    cff:fileFormat "Gifti" ;
+    cff:fileType "Filtered fiber labels (scale33)" .
+

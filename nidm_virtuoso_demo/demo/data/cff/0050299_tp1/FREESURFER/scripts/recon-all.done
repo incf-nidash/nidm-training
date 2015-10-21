@@ -1,0 +1,10 @@
+------------------------------
+SUBJECT 0050299
+DATE Wed Mar 13 19:42:58 PDT 2013
+USER tvanerp
+HOST compute-3-5.local
+PROCESSOR x86_64
+OS Linux
+Linux compute-3-5.local 2.6.32-279.14.1.el6.x86_64 #1 SMP Tue Nov 6 23:43:09 UTC 2012 x86_64 x86_64 x86_64 GNU/Linux
+$Id: recon-all,v 1.379.2.17 2011/05/20 22:48:18 nicks Exp $
+/data/apps/freesurfer/5.1.0/bin/recon-all
