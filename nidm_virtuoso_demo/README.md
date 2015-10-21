@@ -12,41 +12,41 @@ will probably work if you want to get it running right now.
 - Download this demo from GitHub
 - Change directories to the location where you downloaded the demo
 - Type "sudo vagrant up"
--- This should download the Ubuntu/Virtuoso base box, PHP, and Apache2 and install them
--- into the vagrant VM.
+  - This should download the Ubuntu/Virtuoso base box, PHP, and Apache2 and install them
+  - into the vagrant VM.
 - Once the vagrant box has been built and is up, you need to:
 
--- Restore virtuoso database:
---- Type "sudo vagrant ssh"
---- Type "sudo su"
---- Type "cd /var/lib/virtuoso-opensource-7/db"
---- Type "cp /vagrant/virtuoso-backup/virtuoso_backup_full* ."
---- Type "isql"
---- Type "shutdown();"
---- Quit isql
---- Type "rm virtuoso.db"
---- Type "virtuoso-t +restore-backup virtuoso_backup_full"
+  - Restore virtuoso database:
+    - Type "sudo vagrant ssh"
+    - Type "sudo su"
+    - Type "cd /var/lib/virtuoso-opensource-7/db"
+    - Type "cp /vagrant/virtuoso-backup/virtuoso_backup_full* ."
+    - Type "isql"
+    - Type "shutdown();"
+    - Quit isql
+    - Type "rm virtuoso.db"
+    - Type "virtuoso-t +restore-backup virtuoso_backup_full"
 
--- Start the virtuoso database: 
---- Type "sudo vagrant ssh"
---- Type "sudo su"
---- Type "cd /var/lib/virtuoso-opensource-7/db"
---- Type "virtuoso-t -f &"
--- Restore virtuoso database:
---- Type "cd /vagrant/
+  - Start the virtuoso database: 
+    - Type "sudo vagrant ssh"
+    - Type "sudo su"
+    - Type "cd /var/lib/virtuoso-opensource-7/db"
+    - Type "virtuoso-t -f &"
+  - Restore virtuoso database:
+    - Type "cd /vagrant/
 
 # To start demo (note, demo should be running after following installation instructions):
--- Type "sudo vagrant up"
--- Type "sudo vagrant ssh"
--- Type "sudo su"
--- Type "cd /var/lib/virtuoso-opensource-7/db"
--- Type "virtuoso-t -f &"
+- Type "sudo vagrant up"
+- Type "sudo vagrant ssh"
+- Type "sudo su"
+- Type "cd /var/lib/virtuoso-opensource-7/db"
+- Type "virtuoso-t -f &"
 
--- From host machine point browser to:
----Web application: http://127.0.0.1:4567
----Virtuoso Conductor: http://127.0.0.1:8890/conductor/
----- user: dba
----- pw: dba
+- From host machine point browser to:
+  -Web application: http://127.0.0.1:4567
+  -Virtuoso Conductor: http://127.0.0.1:8890/conductor/
+    - user: dba
+    - pw: dba
 
 # Adding / Changing Application
 
