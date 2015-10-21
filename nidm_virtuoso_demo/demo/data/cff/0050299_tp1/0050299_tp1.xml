@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:cff="http://www.contecenter.org/ns/cff#"
+   xmlns:ncit="http://ncitt.ncit.nih.gov/"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9772b62e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <cff:fileType>Final fiber lengths (scale250)</cff:fileType>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <rdfs:label>Connectome data</rdfs:label>
+    <ncit:dataType>FiberLength</ncit:dataType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ncit:source>CData/final_fiber_lengths_(scale250).npy</ncit:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9770562e411e5bf7e7071bc451d31">
+    <rdfs:label>Connectome volume</rdfs:label>
+    <ncit:source>CVolume/ribbon_segmentation_volume.nii.gz</ncit:source>
+    <ncit:dataType>Segmentation</ncit:dataType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <cff:fileType>Ribbon segmentation volume</cff:fileType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <cff:fileFormat>Nifti1GZ</cff:fileFormat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9771362e411e5bf7e7071bc451d31">
+    <rdfs:label>Connectome track</rdfs:label>
+    <cff:fileFormat>TrackVis</cff:fileFormat>
+    <ncit:source>CTrack/filtered_tractography.trk</ncit:source>
+    <ncit:dataType>FilteredFibers</ncit:dataType>
+    <cff:fileType>Filtered Tractography</cff:fileType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9772862e411e5bf7e7071bc451d31">
+    <rdfs:label>Connectome data</rdfs:label>
+    <ncit:source>CData/final_fiber_labels_(scale500).npy</ncit:source>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <ncit:dataType>FiberLabels</ncit:dataType>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <cff:fileType>Final fiber labels (scale500)</cff:fileType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9771262e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <ncit:dataType>OriginalFibers</ncit:dataType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <cff:fileFormat>TrackVis</cff:fileFormat>
+    <ncit:source>CTrack/original_tractography.trk</ncit:source>
+    <rdfs:label>Connectome track</rdfs:label>
+    <cff:fileType>Original Tractography</cff:fileType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9770462e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ncit:dataType>Segmentation</ncit:dataType>
+    <cff:fileFormat>Nifti1GZ</cff:fileFormat>
+    <cff:fileType>Aseg segmentation volume</cff:fileType>
+    <ncit:source>CVolume/aseg_segmentation_volume.nii.gz</ncit:source>
+    <rdfs:label>Connectome volume</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9773662e411e5bf7e7071bc451d31">
+    <cff:fileType>Filtered fiber labels (scale250)</cff:fileType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdfs:label>Connectome data</rdfs:label>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <ncit:dataType>FiberLabels</ncit:dataType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <ncit:source>CData/filtered_fiber_labels_(scale250).npy</ncit:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9773262e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <cff:fileType>Filtered fiber length</cff:fileType>
+    <ncit:source>CData/filtered_fiber_length.npy</ncit:source>
+    <ncit:dataType>FilteredFiberLengthArray</ncit:dataType>
+    <rdfs:label>Connectome data</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9773562e411e5bf7e7071bc451d31">
+    <rdfs:label>Connectome data</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <cff:fileType>Filtered fiber labels (scale500)</cff:fileType>
+    <ncit:dataType>FiberLabels</ncit:dataType>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <ncit:source>CData/filtered_fiber_labels_(scale500).npy</ncit:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9771d62e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ncit:dataType>AttributeNetwork</ncit:dataType>
+    <ncit:source>CNetwork/connectome_scale33.gpickle</ncit:source>
+    <cff:fileType>connectome_scale33</cff:fileType>
+    <cff:fileFormat>NXGPickle</cff:fileFormat>
+    <rdfs:label>Connectome network</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e976ff62e411e5bf7e7071bc451d31">
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9770562e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9771b62e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9770062e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9772a62e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9771262e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9773162e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9770d62e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9772762e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9771162e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9770462e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9770b62e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9770362e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9772162e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9771462e411e5bf7e7071bc451d31"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Collection"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9771f62e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9770962e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9770a62e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9771862e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9771d62e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9771e62e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9773762e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9771562e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9770162e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9771062e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9771762e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9771362e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9770762e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9772662e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9771662e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9773462e411e5bf7e7071bc451d31"/>
+    <rdfs:label>Connectome cml tags contained in cff file</rdfs:label>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9771c62e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9772262e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9772462e411e5bf7e7071bc451d31"/>
+    <prov:wasDerivedFrom rdf:resource="http://www.contecenter.org/ns/cff#31e976fe62e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9772862e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9772d62e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9773562e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9773662e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9773862e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9770c62e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9770e62e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9772f62e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9771962e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9772062e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9770662e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9772e62e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9772962e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9772362e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9773962e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9770862e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9772562e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9772b62e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9773062e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9773262e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9771a62e411e5bf7e7071bc451d31"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9770262e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9773362e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9770f62e411e5bf7e7071bc451d31"/>
+    <prov:hadMember rdf:resource="http://www.contecenter.org/ns/cff#31e9772c62e411e5bf7e7071bc451d31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9772662e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <cff:fileType>Surface Label lh.aparc.annot</cff:fileType>
+    <ncit:source>CSurface/surface_label_lh.aparc.annot.gii</ncit:source>
+    <rdfs:label>Connectome surface</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ncit:dataType>Labels</ncit:dataType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9773862e411e5bf7e7071bc451d31">
+    <cff:fileType>Filtered fiber labels (scale60)</cff:fileType>
+    <ncit:dataType>FiberLabels</ncit:dataType>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <ncit:source>CData/filtered_fiber_labels_(scale60).npy</ncit:source>
+    <rdfs:label>Connectome data</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9770162e411e5bf7e7071bc451d31">
+    <ncit:dataType>T1-weighted</ncit:dataType>
+    <rdfs:label>Connectome volume</rdfs:label>
+    <cff:fileFormat>Nifti1GZ</cff:fileFormat>
+    <cff:fileType>Raw T1 image</cff:fileType>
+    <ncit:source>CVolume/raw_t1_image.nii.gz</ncit:source>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9771662e411e5bf7e7071bc451d31">
+    <cff:fileFormat>TrackVis</cff:fileFormat>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <ncit:dataType>FinalFibers</ncit:dataType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <cff:fileType>Final Tractography (scale125)</cff:fileType>
+    <ncit:source>CTrack/final_tractography_(scale125).trk</ncit:source>
+    <rdfs:label>Connectome track</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9771f62e411e5bf7e7071bc451d31">
+    <rdfs:label>Connectome surface</rdfs:label>
+    <cff:fileType>Surface lh.pial</cff:fileType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ncit:source>CSurface/surface_lh.pial.gii</ncit:source>
+    <ncit:dataType>Surfaceset</ncit:dataType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9770362e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <ncit:source>CVolume/adc_scalar_map.nii.gz</ncit:source>
+    <cff:fileFormat>Nifti1GZ</cff:fileFormat>
+    <ncit:dataType>ADC</ncit:dataType>
+    <cff:fileType>ADC Scalar Map</cff:fileType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdfs:label>Connectome volume</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9771c62e411e5bf7e7071bc451d31">
+    <ncit:source>CNetwork/connectome_scale60.gpickle</ncit:source>
+    <cff:fileFormat>NXGPickle</cff:fileFormat>
+    <rdfs:label>Connectome network</rdfs:label>
+    <ncit:dataType>AttributeNetwork</ncit:dataType>
+    <cff:fileType>connectome_scale60</cff:fileType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9773462e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <ncit:source>CData/fiber_mean_curvature.npy</ncit:source>
+    <ncit:dataType>FiberCurvature</ncit:dataType>
+    <cff:fileType>Fiber mean curvature</cff:fileType>
+    <rdfs:label>Connectome data</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9772162e411e5bf7e7071bc451d31">
+    <ncit:source>CSurface/surface_lh.inflated.gii</ncit:source>
+    <cff:fileType>Surface lh.inflated</cff:fileType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <rdfs:label>Connectome surface</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <ncit:dataType>Surfaceset</ncit:dataType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9773762e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdfs:label>Connectome data</rdfs:label>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <ncit:source>CData/filtered_fiber_labels_(scale125).npy</ncit:source>
+    <ncit:dataType>FiberLabels</ncit:dataType>
+    <cff:fileType>Filtered fiber labels (scale125)</cff:fileType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9771162e411e5bf7e7071bc451d31">
+    <cff:fileFormat>Nifti1GZ</cff:fileFormat>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ncit:source>CVolume/roi_scale_scale33_(b0_space).nii.gz</ncit:source>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <cff:fileType>ROI Scale scale33 (b0 space)</cff:fileType>
+    <rdfs:label>Connectome volume</rdfs:label>
+    <ncit:dataType>Segmentation</ncit:dataType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9770962e411e5bf7e7071bc451d31">
+    <ncit:source>CVolume/roi_volume_scale250.nii.gz</ncit:source>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ncit:dataType>Segmentation</ncit:dataType>
+    <cff:fileType>ROI Volume scale250</cff:fileType>
+    <rdfs:label>Connectome volume</rdfs:label>
+    <cff:fileFormat>Nifti1GZ</cff:fileFormat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e976fe62e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#File"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdfs:label>CFF (Connectome File Format) file generated by Conte Center</rdfs:label>
+    <prov:atLocation rdf:datatype="http://www.w3.org/2001/XMLSchema#String">/home/dbkeator/temp/0050299/meta.cml</prov:atLocation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9771862e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <cff:fileType>Final Tractography (scale33)</cff:fileType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <ncit:dataType>FinalFibers</ncit:dataType>
+    <rdfs:label>Connectome track</rdfs:label>
+    <cff:fileFormat>TrackVis</cff:fileFormat>
+    <ncit:source>CTrack/final_tractography_(scale33).trk</ncit:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9773962e411e5bf7e7071bc451d31">
+    <ncit:dataType>FiberLabels</ncit:dataType>
+    <cff:fileType>Filtered fiber labels (scale33)</cff:fileType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <ncit:source>CData/filtered_fiber_labels_(scale33).npy</ncit:source>
+    <rdfs:label>Connectome data</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9771a62e411e5bf7e7071bc451d31">
+    <rdfs:label>Connectome network</rdfs:label>
+    <ncit:source>CNetwork/connectome_scale250.gpickle</ncit:source>
+    <ncit:dataType>AttributeNetwork</ncit:dataType>
+    <cff:fileType>connectome_scale250</cff:fileType>
+    <cff:fileFormat>NXGPickle</cff:fileFormat>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9771b62e411e5bf7e7071bc451d31">
+    <ncit:source>CNetwork/connectome_scale125.gpickle</ncit:source>
+    <rdfs:label>Connectome network</rdfs:label>
+    <ncit:dataType>AttributeNetwork</ncit:dataType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <cff:fileFormat>NXGPickle</cff:fileFormat>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <cff:fileType>connectome_scale125</cff:fileType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9770e62e411e5bf7e7071bc451d31">
+    <cff:fileFormat>Nifti1GZ</cff:fileFormat>
+    <ncit:source>CVolume/roi_scale_scale250_(b0_space).nii.gz</ncit:source>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <cff:fileType>ROI Scale scale250 (b0 space)</cff:fileType>
+    <rdfs:label>Connectome volume</rdfs:label>
+    <ncit:dataType>Segmentation</ncit:dataType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9772562e411e5bf7e7071bc451d31">
+    <rdfs:label>Connectome surface</rdfs:label>
+    <cff:fileType>Surface lh.white</cff:fileType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <ncit:dataType>Surfaceset</ncit:dataType>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ncit:source>CSurface/surface_lh.white.gii</ncit:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9772262e411e5bf7e7071bc451d31">
+    <rdfs:label>Connectome surface</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <ncit:source>CSurface/surface_rh.sphere.gii</ncit:source>
+    <ncit:dataType>Surfaceset</ncit:dataType>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <cff:fileType>Surface rh.sphere</cff:fileType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9772062e411e5bf7e7071bc451d31">
+    <rdfs:label>Connectome surface</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <ncit:dataType>Surfaceset</ncit:dataType>
+    <ncit:source>CSurface/surface_rh.inflated.gii</ncit:source>
+    <cff:fileType>Surface rh.inflated</cff:fileType>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9771e62e411e5bf7e7071bc451d31">
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <ncit:dataType>Surfaceset</ncit:dataType>
+    <ncit:source>CSurface/surface_rh.pial.gii</ncit:source>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <cff:fileType>Surface rh.pial</cff:fileType>
+    <rdfs:label>Connectome surface</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9770762e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ncit:dataType>Segmentation</ncit:dataType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <cff:fileType>CC and Unknown</cff:fileType>
+    <ncit:source>CVolume/cc_and_unknown.nii.gz</ncit:source>
+    <rdfs:label>Connectome volume</rdfs:label>
+    <cff:fileFormat>Nifti1GZ</cff:fileFormat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9771562e411e5bf7e7071bc451d31">
+    <rdfs:label>Connectome track</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <ncit:dataType>FinalFibers</ncit:dataType>
+    <cff:fileType>Final Tractography (scale250)</cff:fileType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ncit:source>CTrack/final_tractography_(scale250).trk</ncit:source>
+    <cff:fileFormat>TrackVis</cff:fileFormat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9773362e411e5bf7e7071bc451d31">
+    <rdfs:label>Connectome data</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <ncit:dataType>FiberEndpoints</ncit:dataType>
+    <ncit:source>CData/filtered_fiber_endpoints_(mm).npy</ncit:source>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <cff:fileType>Filtered fiber endpoints (mm)</cff:fileType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9772c62e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdfs:label>Connectome data</rdfs:label>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <ncit:source>CData/final_fiber_labels_(scale125).npy</ncit:source>
+    <cff:fileType>Final fiber labels (scale125)</cff:fileType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <ncit:dataType>FiberLabels</ncit:dataType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9772f62e411e5bf7e7071bc451d31">
+    <ncit:dataType>FiberLength</ncit:dataType>
+    <cff:fileType>Final fiber lengths (scale60)</cff:fileType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdfs:label>Connectome data</rdfs:label>
+    <ncit:source>CData/final_fiber_lengths_(scale60).npy</ncit:source>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9771062e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ncit:dataType>Segmentation</ncit:dataType>
+    <ncit:source>CVolume/roi_scale_scale60_(b0_space).nii.gz</ncit:source>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <cff:fileType>ROI Scale scale60 (b0 space)</cff:fileType>
+    <rdfs:label>Connectome volume</rdfs:label>
+    <cff:fileFormat>Nifti1GZ</cff:fileFormat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9770b62e411e5bf7e7071bc451d31">
+    <cff:fileFormat>Nifti1GZ</cff:fileFormat>
+    <ncit:dataType>Segmentation</ncit:dataType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <rdfs:label>Connectome volume</rdfs:label>
+    <cff:fileType>ROI Volume scale60</cff:fileType>
+    <ncit:source>CVolume/roi_volume_scale60.nii.gz</ncit:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9770662e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <rdfs:label>Connectome volume</rdfs:label>
+    <ncit:source>CVolume/white_matter_mask.nii.gz</ncit:source>
+    <cff:fileType>White matter mask</cff:fileType>
+    <cff:fileFormat>Nifti1GZ</cff:fileFormat>
+    <ncit:dataType>Segmentation</ncit:dataType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9770a62e411e5bf7e7071bc451d31">
+    <rdfs:label>Connectome volume</rdfs:label>
+    <cff:fileType>ROI Volume scale125</cff:fileType>
+    <ncit:dataType>Segmentation</ncit:dataType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <ncit:source>CVolume/roi_volume_scale125.nii.gz</ncit:source>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <cff:fileFormat>Nifti1GZ</cff:fileFormat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9772d62e411e5bf7e7071bc451d31">
+    <ncit:source>CData/final_fiber_lengths_(scale125).npy</ncit:source>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <ncit:dataType>FiberLength</ncit:dataType>
+    <rdfs:label>Connectome data</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <cff:fileType>Final fiber lengths (scale125)</cff:fileType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9772462e411e5bf7e7071bc451d31">
+    <cff:fileType>Surface rh.white</cff:fileType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ncit:source>CSurface/surface_rh.white.gii</ncit:source>
+    <rdfs:label>Connectome surface</rdfs:label>
+    <ncit:dataType>Surfaceset</ncit:dataType>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9770062e411e5bf7e7071bc451d31">
+    <ncit:timepoint>tp1</ncit:timepoint>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <ncit:subjectID>0050299</ncit:subjectID>
+    <rdfs:label>Connectome meta</rdfs:label>
+    <ncit:species>Homo sapiens</ncit:species>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9770c62e411e5bf7e7071bc451d31">
+    <ncit:source>CVolume/roi_volume_scale33.nii.gz</ncit:source>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <cff:fileFormat>Nifti1GZ</cff:fileFormat>
+    <rdfs:label>Connectome volume</rdfs:label>
+    <ncit:dataType>Segmentation</ncit:dataType>
+    <cff:fileType>ROI Volume scale33</cff:fileType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9770262e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <cff:fileType>FA Scalar Map</cff:fileType>
+    <ncit:dataType>FA</ncit:dataType>
+    <cff:fileFormat>Nifti1GZ</cff:fileFormat>
+    <rdfs:label>Connectome volume</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <ncit:source>CVolume/fa_scalar_map.nii.gz</ncit:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9770862e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <cff:fileType>ROI Volume scale500</cff:fileType>
+    <rdfs:label>Connectome volume</rdfs:label>
+    <ncit:dataType>Segmentation</ncit:dataType>
+    <cff:fileFormat>Nifti1GZ</cff:fileFormat>
+    <ncit:source>CVolume/roi_volume_scale500.nii.gz</ncit:source>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9772762e411e5bf7e7071bc451d31">
+    <ncit:source>CSurface/surface_label_rh.aparc.annot.gii</ncit:source>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <cff:fileType>Surface Label rh.aparc.annot</cff:fileType>
+    <ncit:dataType>Labels</ncit:dataType>
+    <rdfs:label>Connectome surface</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9772e62e411e5bf7e7071bc451d31">
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <ncit:dataType>FiberLabels</ncit:dataType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ncit:source>CData/final_fiber_labels_(scale60).npy</ncit:source>
+    <rdfs:label>Connectome data</rdfs:label>
+    <cff:fileType>Final fiber labels (scale60)</cff:fileType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9772362e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdfs:label>Connectome surface</rdfs:label>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <cff:fileType>Surface lh.sphere</cff:fileType>
+    <ncit:dataType>Surfaceset</ncit:dataType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <ncit:source>CSurface/surface_lh.sphere.gii</ncit:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9773162e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdfs:label>Connectome data</rdfs:label>
+    <cff:fileType>Final fiber lengths (scale33)</cff:fileType>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <ncit:dataType>FiberLength</ncit:dataType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <ncit:source>CData/final_fiber_lengths_(scale33).npy</ncit:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9773062e411e5bf7e7071bc451d31">
+    <rdfs:label>Connectome data</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <cff:fileType>Final fiber labels (scale33)</cff:fileType>
+    <ncit:dataType>FiberLabels</ncit:dataType>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <ncit:source>CData/final_fiber_labels_(scale33).npy</ncit:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9770d62e411e5bf7e7071bc451d31">
+    <cff:fileFormat>Nifti1GZ</cff:fileFormat>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <ncit:source>CVolume/roi_scale_scale500_(b0_space).nii.gz</ncit:source>
+    <cff:fileType>ROI Scale scale500 (b0 space)</cff:fileType>
+    <rdfs:label>Connectome volume</rdfs:label>
+    <ncit:dataType>Segmentation</ncit:dataType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9771762e411e5bf7e7071bc451d31">
+    <cff:fileFormat>TrackVis</cff:fileFormat>
+    <rdfs:label>Connectome track</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <cff:fileType>Final Tractography (scale60)</cff:fileType>
+    <ncit:source>CTrack/final_tractography_(scale60).trk</ncit:source>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ncit:dataType>FinalFibers</ncit:dataType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9771962e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <cff:fileFormat>NXGPickle</cff:fileFormat>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ncit:dataType>AttributeNetwork</ncit:dataType>
+    <cff:fileType>connectome_scale500</cff:fileType>
+    <rdfs:label>Connectome network</rdfs:label>
+    <ncit:source>CNetwork/connectome_scale500.gpickle</ncit:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9772a62e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <ncit:dataType>FiberLabels</ncit:dataType>
+    <rdfs:label>Connectome data</rdfs:label>
+    <ncit:source>CData/final_fiber_labels_(scale250).npy</ncit:source>
+    <cff:fileType>Final fiber labels (scale250)</cff:fileType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9772962e411e5bf7e7071bc451d31">
+    <ncit:dataType>FiberLength</ncit:dataType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdfs:label>Connectome data</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <cff:fileFormat>Gifti</cff:fileFormat>
+    <cff:fileType>Final fiber lengths (scale500)</cff:fileType>
+    <ncit:source>CData/final_fiber_lengths_(scale500).npy</ncit:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9771462e411e5bf7e7071bc451d31">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdfs:label>Connectome track</rdfs:label>
+    <cff:fileFormat>TrackVis</cff:fileFormat>
+    <ncit:source>CTrack/final_tractography_(scale500).trk</ncit:source>
+    <ncit:dataType>FinalFibers</ncit:dataType>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <cff:fileType>Final Tractography (scale500)</cff:fileType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.contecenter.org/ns/cff#31e9770f62e411e5bf7e7071bc451d31">
+    <rdfs:label>Connectome volume</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#DataItem"/>
+    <cff:fileType>ROI Scale scale125 (b0 space)</cff:fileType>
+    <ncit:source>CVolume/roi_scale_scale125_(b0_space).nii.gz</ncit:source>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ncit:dataType>Segmentation</ncit:dataType>
+    <cff:fileFormat>Nifti1GZ</cff:fileFormat>
+  </rdf:Description>
+</rdf:RDF>
