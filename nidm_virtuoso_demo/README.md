@@ -32,10 +32,10 @@ will probably work if you want to get it running right now.
     - Type "sudo su"
     - Type "cd /var/lib/virtuoso-opensource-7/db"
     - Type "virtuoso-t -f &"
-  - Restore virtuoso database:
-    - Type "cd /vagrant/
 
-# To start demo (note, demo should be running after following installation instructions):
+# To start demo 
+Note, demo should be running after following installation instructions above
+
 - Type "sudo vagrant up"
 - Type "sudo vagrant ssh"
 - Type "sudo su"
