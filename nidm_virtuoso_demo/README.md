@@ -20,12 +20,12 @@ will probably work if you want to get it running right now.
     - Type "sudo vagrant ssh"
     - Type "sudo su"
     - Type "cd /var/lib/virtuoso-opensource-7/db"
-    - Type "cp /vagrant/virtuoso-backup/virtuoso_backup_full* ."
+    - Type "cp /vagrant/virtuoso-backup/virtuoso_db_full* ."
     - Type "isql"
     - Type "shutdown();"
     - Quit isql
     - Type "rm virtuoso.db"
-    - Type "virtuoso-t +restore-backup virtuoso_backup_full"
+    - Type "virtuoso-t +restore-backup virtuoso_db_full"
 
   - Start the virtuoso database: 
     - Type "sudo vagrant ssh"
