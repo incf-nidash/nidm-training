@@ -33,6 +33,13 @@ will probably work if you want to get it running right now.
     - Type "cd /var/lib/virtuoso-opensource-7/db"
     - Type "virtuoso-t -f &"
 
+  - Change Apache2 default web-app location
+    - Type "sudo vagrant ssh"
+    - Type "sudo su"
+    - Type "cd /etc/apache2/sites-available"
+    - Edit 000-default.conf changing DocumentRoot variable to /var/www/demo
+    - Restart apache server: "apachectl -k restart"
+
 # To start demo 
 Note, demo should be running after following installation instructions above
 
@@ -41,7 +48,6 @@ Note, demo should be running after following installation instructions above
 - Type "sudo su"
 - Type "cd /var/lib/virtuoso-opensource-7/db"
 - Type "virtuoso-t -f &"
-
 - From host machine point browser to:
 
   -Web application: http://127.0.0.1:4567
