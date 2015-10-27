@@ -217,7 +217,7 @@ function getRatDTIData() {
 
   var http = new XMLHttpRequest();
   var url = "";
-
+}
 function toggleSPARQL () {
   var chbox = document.getElementById("toggle_switch");
   var vis = "none";
@@ -262,7 +262,8 @@ function getDTIStats() {
   } else if (scantype != '*' && hemi != '*') {
     //alert('2');
     url = root + "/fetch-rat-dti-stats-across-slices.php";
-
+  }
+}
 function changeMHRSampleStats () {
   var sel = document.getElementById('mhr_period_select');
   var period = sel.options[sel.selectedIndex].value;
