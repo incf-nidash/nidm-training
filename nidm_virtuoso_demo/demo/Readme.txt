@@ -1,6 +1,6 @@
 How a query is added to demo:
 
-1. add a button to demo.php 
+1. add a button to query.php 
 example:
 <button type="button" id="mhr">Query maternal heart rate data</button>
 
