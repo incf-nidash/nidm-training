@@ -219,7 +219,7 @@ function get_anatomical_regions () {
 
   $fields = sparql_field_array( $result );
   $numrows = sparql_num_rows( $result );
-  //print $numrows . "\n";
+  // print $numrows . "\n";
 
   $myarray = array();
   while( $row = sparql_fetch_array( $result ) ){
@@ -362,7 +362,7 @@ EOT;
 
   $fields = sparql_field_array( $result );
   $numrows = sparql_num_rows( $result );
-  //print $numrows . "\n";
+  print $numrows . "\n";
 
   $myarray = array();
   while( $row = sparql_fetch_array( $result ) ){
