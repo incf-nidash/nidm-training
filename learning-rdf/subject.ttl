@@ -1,0 +1,7 @@
+#@prefix prov: <http://www.w3c.org/ns/prov#> .
+#@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+#@prefix : <http://my.data#> .
+
+<http://my.data#sub01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3c.org/ns/prov#Person> .
+<http://my.data#sub01> <http://my.data#identifier> "sub01" .
+<http://my.data#sub01> <http://my.data#age> "25.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
