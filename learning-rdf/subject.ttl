@@ -1,0 +1,4 @@
+prefix prov: <http://www.w3c.org/ns/prov#> .
+prefix : <> .
+
+:sub01 rdf:type prov:Person .
