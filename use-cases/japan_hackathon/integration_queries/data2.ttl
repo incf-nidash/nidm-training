@@ -1,0 +1,64 @@
+@prefix :      <http://meatdb.riken.jp/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix metadb_catalog: <http://metadb.riken.jp/db/DBcatalog/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix pmid:  <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix cito:  <http://purl.org/net/cito/> .
+@prefix sd:    <http://www.w3.org/ns/sparql-service-description#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix metadb_db: <http://metadb.riken.jp/db/> .
+@prefix metadb_graph: <http://metadb.riken.jp/db/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+metadb_graph:BrainTx  a               void:Dataset ;
+        rdfs:label                    "Cerebellar Development Transcriptome Database (CDT-DB)"@en , "The Brain Transcriptome Database (BrainTx)"@en ;
+        metadb_catalog:metadata_link  "http://metadb.riken.jp/db/BrainTx"^^xsd:anyURI ;
+        dc:publisher                  <http://metadb.riken.jp/db/resource/organisation/riken> , <http://metadb.riken.jp/db/resource/organisation/riken_labs_bsi> ;
+        dct:description               "The Brain Transcriptome Database (BrainTx) project aims to create an integrated platform to visualize and analyze our original transcriptome data and publicly accessible transcriptome data related to the genetics that underlie the development, function, and dysfunction stages and states of the brain. BrainTx was developed from the Cerebellar Development Transcriptome Database (CDT-DB). Information about CDT-DB can be downloaded using the \"Download\" option in the menu bar."@en ;
+        dct:language                  <http://www.lexvo.org/id/iso639-3/eng> ;
+        dct:title                     "The Brain Transcriptome Database (BrainTx)"@en ;
+        foaf:page                     "http://www.cdtdb.neuroinf.jp/CDT/Top.jsp"^^xsd:anyURI .
+
+<http://metadb.riken.jp/db/resource/organisation/riken_labs_bsi>
+        a                            metadb_catalog:RIKENorganization ;
+        rdfs:label                   "脳科学総合研究センター"@ja , "Brain Science Institute"@en ;
+        metadb_catalog:centerAdress  "〒351-0198　埼玉県和光市広沢2-1"@ja , "2-1 Hirosawa Wako, Saitama 351-0198 Japan"@en ;
+        metadb_catalog:centerDescription
+                "1997年10月に設立された当センターは、国内外から結集した優れた研究者により総合的な研究を展開し、設立以来、世界有数の脳科学研究拠点として国際的な認知を得ています。脳内の分子構造から神経回路、認知・記憶・学習の仕組み、健康と疾患等までを研究対象とし、工学や計算理論、心理学までも含めた多彩な学問分野を背景にして、学際的かつ融合的な研究を目指しています。近年では、分子や細胞といった微視的レベルを扱う神経生物学と、認知や計算論のような巨視的レベルとをつなぐものとして神経回路研究に焦点を当てています。また、脳研究の進展に必要不可欠である基盤技術でも革新的手法の採用や新技術開発を行い、広範囲にわたる神経科学の重要研究に取り組んでいます。"@ja , "Brain science is valuable not only for the advancement of science but also because it can greatly impact our society and economy. To meet these expectations, the Brain Science Institute (BSI) was established in 1997 as part of RIKEN, an independent research institution supported by the Japanese government. BSI has a mission to produce innovative research and technology leading to scientific discoveries of the brain. In addition, BSI aims to develop domestic and international brain researchers by creating an environment that will integrate various intellectual disciplines and from that convergence find solutions that will ultimately benefit society in the realms of medicine, engineering, business, and education.In striving toward this goal, BSI has become a leading international center for brain research with a reputation for discovery, innovation, training, and globalization of the scientific enterprise."@en ;
+        metadb_catalog:centerUpdate  "2015-06-03T15:00:00Z"^^xsd:dateTime ;
+        skos:altLabel                "BSI"@en ;
+        foaf:page                    "http://www.brain.riken.jp/en/"^^xsd:anyURI , "http://www.riken.jp/research/labs/bsi/"^^xsd:anyURI .
+
+<http://metadb.riken.jp/db/resource/organisation/riken_labs_accc>
+        a                            metadb_catalog:RIKENorganization ;
+        rdfs:label                   "情報基盤センター"@ja , "Advanced Center for Computing and Communication"@en ;
+        metadb_catalog:centerAdress  "2-1 Hirosawa Wako, Saitama 351-0198 Japan"@en , "〒351-0198　埼玉県和光市広沢2-1"@ja ;
+        metadb_catalog:centerUpdate  "2015-06-03T15:00:00Z"^^xsd:dateTime ;
+        skos:altLabel                "ACCC"@en ;
+        foaf:page                    "http://accc.riken.jp/en/"^^xsd:anyURI , "http://www.riken.jp/research/labs/accc/"^^xsd:anyURI .
+
+metadb_graph:NIJC_catalog
+        a               <http://metadb.riken.jp/db> ;
+        rdfs:label      "RIKEN Database Directory"@en , "NIJCデータベースカタログ"@ja ;
+        dc:description  "This database is a catalog of databases operated in the RIKEN institute. This data is released in the form of Resource Description Framework (RDF) for use free."@en , "本データベースは、理化学研究所が運営するデータベースのカタログです。このデータはResource Description Framework (RDF) でも配信され、自由にお使いいただけます。"@ja .
+
+<http://www.lexvo.org/id/iso639-3/eng>
+        a       <http://www.lexvo.org/id/iso639-3> .
+
+<http://metadb.riken.jp/db/resource/organisation/riken>
+        a                            metadb_catalog:RIKENorganization ;
+        rdfs:label                   "理化学研究所"@ja , "RIKEN"@en ;
+        metadb_catalog:centerUpdate  "2015-06-03T15:00:00Z"^^xsd:dateTime ;
+        skos:altLabel                "RIKEN"@en ;
+        foaf:page                    "http://www.riken.jp/en/"^^xsd:anyURI .

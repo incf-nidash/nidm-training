@@ -1,0 +1,293 @@
+@prefix :      <http://meatdb.riken.jp/> .
+@prefix qudt:  <http://qudt.org/schema/qudt> .
+@prefix dnPipelineSection: <http://metadb.riken.jp/db/ddbj-ngs/PipelineSection/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix project: <http://metadb.riken.jp/db/BRC-ENU-inducedMutantMiceExomeSequencing/Project/> .
+@prefix run:   <http://metadb.riken.jp/db/BRC-ENU-inducedMutantMiceExomeSequencing/Run/> .
+@prefix dn:    <http://metadb.riken.jp/db/ddbj-ngs/> .
+@prefix dnLibStrategy: <http://metadb.riken.jp/db/ddbj-ngs/Library/Selection/> .
+@prefix dnOxygenRequirement: <http://metadb.riken.jp/db/ddbj-ngs/OxygenRequirement/> .
+@prefix dnProjectDataType: <http://metadb.riken.jp/db/ddbj-ngs/ProjectDataType/> .
+@prefix experiment: <http://metadb.riken.jp/db/BRC-ENU-inducedMutantMiceExomeSequencing/Experiment/> .
+@prefix BrainTx: <http://metadb.riken.jp/db/BrainTx/> .
+@prefix NCBI:  <http://www.ncbi.nlm.nih.gov/nuccore/NM_> .
+@prefix dnPloidy: <http://metadb.riken.jp/db/ddbj-ngs/Ploidy/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dnsdsrs: <http://metadb.riken.jp/db/ddbj-ngs/SpotDecodeSpec/ReadSpec/> .
+@prefix dnLocation: <http://metadb.riken.jp/db/ddbj-ngs/Location/> .
+@prefix dnRelevance: <http://metadb.riken.jp/db/ddbj-ngs/Relevance/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dnTargetSampleScope: <http://metadb.riken.jp/db/ddbj-ngs/Target/SampleScope/> .
+@prefix dnTemperatureRange: <http://metadb.riken.jp/db/ddbj-ngs/TemperatureRange/> .
+@prefix dnTrophicLevel: <http://metadb.riken.jp/db/ddbj-ngs/TrophicLevel/> .
+@prefix dnBioticRelationship: <http://metadb.riken.jp/db/ddbj-ngs/BioticRelationship/> .
+@prefix dnLibSource: <http://metadb.riken.jp/db/ddbj-ngs/Library/Source/> .
+@prefix dnObjective: <http://metadb.riken.jp/db/ddbj-ngs/Objective/> .
+@prefix runDataFileFormat: <http://metadb.riken.jp/db/BRC-ENU-inducedMutantMiceExomeSequencing/RunDataFileFormat/> .
+@prefix metadb_catalog: <http://metadb.riken.jp/db/DBcatalog/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dnLibrary: <http://metadb.riken.jp/db/ddbj-ngs/Library/> .
+@prefix dnsds: <http://metadb.riken.jp/db/ddbj-ngs/SpotDecodeSpec/> .
+@prefix cito:  <http://purl.org/net/cito/> .
+@prefix dnsdsrsMatchEdge: <http://metadb.riken.jp/db/ddbj-ngs/SpotDecodeSpec/ReadSpec/MatchEdge/> .
+@prefix sd:    <http://www.w3.org/ns/sparql-service-description#> .
+@prefix dnShape: <http://metadb.riken.jp/db/ddbj-ngs/Shape/> .
+@prefix library: <http://metadb.riken.jp/db/BRC-ENU-inducedMutantMiceExomeSequencing/Library/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix dnGram: <http://metadb.riken.jp/db/ddbj-ngs/Gram/> .
+@prefix dnLibLayout: <http://metadb.riken.jp/db/ddbj-ngs/Library/Layout/> .
+@prefix ngs:   <http://metadb.riken.jp/db/ngs> .
+@prefix dnReproduction: <http://metadb.riken.jp/db/ddbj-ngs/Reproduction/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix dnCellularity: <http://metadb.riken.jp/db/ddbj-ngs/Cellularity/> .
+@prefix ddbj-ngs: <http://metadb.riken.jp/db/ddbj-ngs/> .
+@prefix bioSample: <http://metadb.riken.jp/db/BRC-ENU-inducedMutantMiceExomeSequencing/BioSample/> .
+@prefix dnsdsrsReadType: <http://metadb.riken.jp/db/ddbj-ngs/SpotDecodeSpec/ReadSpec/ReadType/> .
+@prefix dnInstModel: <http://metadb.riken.jp/db/ddbj-ngs/InstrumentModel/> .
+@prefix dnHabitat: <http://metadb.riken.jp/db/ddbj-ngs/Habitat/> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix dnAnalysisType: <http://metadb.riken.jp/db/ddbj-ngs/AnalysisType/> .
+@prefix dnSalinity: <http://metadb.riken.jp/db/ddbj-ngs/Salinity/> .
+@prefix dnAnalysisDataFileFormat: <http://metadb.riken.jp/db/ddbj-ngs/AnalysisDataFileFormat/> .
+@prefix pmid:  <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+@prefix MGI:   <http://metadb.riken.jp/db/mgi_rdf/MGI:> .
+@prefix dnTargetCapture: <http://metadb.riken.jp/db/ddbj-ngs/Target/Capture/> .
+@prefix dnLibSelection: <http://metadb.riken.jp/db/ddbj-ngs/Library/Selection/> .
+@prefix dnsdsrsReadClass: <http://metadb.riken.jp/db/ddbj-ngs/SpotDecodeSpec/ReadSpec/ReadClass/> .
+@prefix dnMethodology: <http://metadb.riken.jp/db/ddbj-ngs/Methodology/> .
+@prefix dataid: <http://dataid.dbpedia.org/ns/core#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnTargetMaterial: <http://metadb.riken.jp/db/ddbj-ngs/Target/Material/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix dnInstPlatform: <http://metadb.riken.jp/db/ddbj-ngs/InstrumentPlatform/> .
+@prefix metadb_db: <http://metadb.riken.jp/db/> .
+@prefix dnRepliconType: <http://metadb.riken.jp/db/ddbj-ngs/RepliconType/> .
+@prefix metadb_graph: <http://metadb.riken.jp/db/> .
+@prefix dnTarget: <http://metadb.riken.jp/db/ddbj-ngs/Target/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix dnLibLayoutType: <http://metadb.riken.jp/db/ddbj-ngs/Library/Layout/Type/> .
+
+<>      a       <http://metadb.riken.jp/matadb/table/excel/Book> ;
+        <http://metadb.riken.jp/matadb/table/excel/prefixSheetNumber>
+                "0"^^xsd:long ;
+        <http://metadb.riken.jp/matadb/table/excel/sheet>
+                [ a           <http://metadb.riken.jp/matadb/table/excel/Sheet> ;
+                  rdfs:label  "Sheet1"^^xsd:string ;
+                  <http://metadb.riken.jp/matadb/table/excel/column>
+                          <Sheet1data2> ;
+                  <http://metadb.riken.jp/matadb/table/excel/column>
+                          [ a       <http://metadb.riken.jp/matadb/table/excel/ClassColumn> ;
+                            <http://metadb.riken.jp/matadb/table/excel/class>
+                                    BrainTx:data ;
+                            <http://metadb.riken.jp/matadb/table/excel/columnNumber>
+                                    "2"^^xsd:long ;
+                            <http://metadb.riken.jp/matadb/tableView/attribute>
+                                    "CD ID"@ja , "CD ID"@en
+                          ] ;
+                  <http://metadb.riken.jp/matadb/table/excel/column>
+                          [ a       <http://metadb.riken.jp/matadb/table/excel/CommentColumn> ;
+                            <http://metadb.riken.jp/matadb/table/excel/columnNumber>
+                                    "1"^^xsd:long
+                          ] ;
+                  <http://metadb.riken.jp/matadb/table/excel/sheetNumber>
+                          "3"^^xsd:long ;
+                  <http://metadb.riken.jp/matadb/table/propertyOfTableType>
+                          rdf:type ;
+                  <http://metadb.riken.jp/matadb/table/targetClass>
+                          BrainTx:data
+                ] ;
+        <http://metadb.riken.jp/matadb/table/excel/sheet>
+                [ a           <http://metadb.riken.jp/matadb/table/excel/Sheet> ;
+                  rdfs:label  "coordinate"^^xsd:string ;
+                  <http://metadb.riken.jp/matadb/table/excel/column>
+                          <coordinatedata9> , <coordinatedata8> , <coordinatedata6> , <coordinatedata7> , <coordinatedata5> , <coordinatedata10> , <coordinatedata4> , <coordinatedata3> , <coordinatedata2> ;
+                  <http://metadb.riken.jp/matadb/table/excel/column>
+                          [ a       <http://metadb.riken.jp/matadb/table/excel/ClassColumn> ;
+                            <http://metadb.riken.jp/matadb/table/excel/class>
+                                    BrainTx:data ;
+                            <http://metadb.riken.jp/matadb/table/excel/columnNumber>
+                                    "2"^^xsd:long ;
+                            <http://metadb.riken.jp/matadb/tableView/attribute>
+                                    "CD ID"@ja , "CD ID"@en
+                          ] ;
+                  <http://metadb.riken.jp/matadb/table/excel/column>
+                          [ a       <http://metadb.riken.jp/matadb/table/excel/CommentColumn> ;
+                            <http://metadb.riken.jp/matadb/table/excel/columnNumber>
+                                    "1"^^xsd:long
+                          ] ;
+                  <http://metadb.riken.jp/matadb/table/excel/sheetNumber>
+                          "2"^^xsd:long ;
+                  <http://metadb.riken.jp/matadb/table/propertyOfTableType>
+                          rdf:type ;
+                  <http://metadb.riken.jp/matadb/table/targetClass>
+                          BrainTx:data
+                ] ;
+        <http://metadb.riken.jp/matadb/table/excel/sheet>
+                [ a           <http://metadb.riken.jp/matadb/table/excel/Sheet> ;
+                  rdfs:label  "@dbTable"^^xsd:string ;
+                  <http://metadb.riken.jp/matadb/table/excel/column>
+                          <@dbTabledata3> , <@dbTabledata2> ;
+                  <http://metadb.riken.jp/matadb/table/excel/column>
+                          [ a       <http://metadb.riken.jp/matadb/table/excel/ClassColumn> ;
+                            <http://metadb.riken.jp/matadb/table/excel/class>
+                                    <http://metadb.riken.jp/db> ;
+                            <http://metadb.riken.jp/matadb/table/excel/columnNumber>
+                                    "2"^^xsd:long ;
+                            <http://metadb.riken.jp/matadb/tableView/attribute>
+                                    "データベース"@ja , "database"@en
+                          ] ;
+                  <http://metadb.riken.jp/matadb/table/excel/column>
+                          [ a       <http://metadb.riken.jp/matadb/table/excel/CommentColumn> ;
+                            <http://metadb.riken.jp/matadb/table/excel/columnNumber>
+                                    "1"^^xsd:long
+                          ] ;
+                  <http://metadb.riken.jp/matadb/table/excel/sheetNumber>
+                          "1"^^xsd:long ;
+                  <http://metadb.riken.jp/matadb/table/propertyOfTableType>
+                          rdf:type ;
+                  <http://metadb.riken.jp/matadb/table/targetClass>
+                          <http://metadb.riken.jp/db>
+                ] .
+
+<coordinatedata5>  a  <http://metadb.riken.jp/matadb/table/excel/DataColumn> ;
+        <http://metadb.riken.jp/matadb/table/excel/class>
+                rdf:Resource ;
+        <http://metadb.riken.jp/matadb/table/excel/columnNumber>
+                "6"^^xsd:long ;
+        <http://metadb.riken.jp/matadb/table/excel/property>
+                BrainTx:NCBIAccessionID ;
+        <http://metadb.riken.jp/matadb/tableView/attribute>
+                "NCBIAccessionID"@ja , "NCBIAccessionID"@en .
+
+<comment1>  a         <http://metadb.riken.jp/matadb/table/excel/Cell> ;
+        rdfs:comment  "日本語属性"^^xsd:string ;
+        <http://metadb.riken.jp/matadb/table/excel/rowNumber>
+                "2"^^xsd:long .
+
+<coordinatedata4>  a  <http://metadb.riken.jp/matadb/table/excel/DataColumn> ;
+        <http://metadb.riken.jp/matadb/table/excel/columnNumber>
+                "5"^^xsd:long ;
+        <http://metadb.riken.jp/matadb/table/excel/dataType>
+                xsd:string ;
+        <http://metadb.riken.jp/matadb/table/excel/property>
+                BrainTx:geneSymbol ;
+        <http://metadb.riken.jp/matadb/tableView/attribute>
+                "Gene Symbol"@ja , "Gene Symbol"@en .
+
+<@dbTabledata3>  a  <http://metadb.riken.jp/matadb/table/excel/DataColumn> ;
+        <http://metadb.riken.jp/matadb/table/excel/columnNumber>
+                "4"^^xsd:long ;
+        <http://metadb.riken.jp/matadb/table/excel/dataType>
+                rdf:langString ;
+        <http://metadb.riken.jp/matadb/table/excel/property>
+                rdfs:label ;
+        <http://metadb.riken.jp/matadb/tableView/attribute>
+                "データベース名"@ja , "databaseName"@en .
+
+<comment0>  a         <http://metadb.riken.jp/matadb/table/excel/Cell> ;
+        rdfs:comment  "EnglishAttribution"^^xsd:string ;
+        <http://metadb.riken.jp/matadb/table/excel/rowNumber>
+                "1"^^xsd:long .
+
+<coordinatedata3>  a  <http://metadb.riken.jp/matadb/table/excel/DataColumn> ;
+        <http://metadb.riken.jp/matadb/table/excel/columnNumber>
+                "4"^^xsd:long ;
+        <http://metadb.riken.jp/matadb/table/excel/dataType>
+                xsd:string ;
+        <http://metadb.riken.jp/matadb/table/excel/property>
+                BrainTx:alt_name ;
+        <http://metadb.riken.jp/matadb/tableView/attribute>
+                "別名"@ja , "Alternative name(s)"@en .
+
+<coordinatedata9>  a  <http://metadb.riken.jp/matadb/table/excel/DataColumn> ;
+        <http://metadb.riken.jp/matadb/table/excel/columnNumber>
+                "10"^^xsd:long ;
+        <http://metadb.riken.jp/matadb/table/excel/dataType>
+                xsd:string ;
+        <http://metadb.riken.jp/matadb/table/excel/property>
+                BrainTx:probe ;
+        <http://metadb.riken.jp/matadb/tableView/attribute>
+                "Probe"@ja , "Probe"@en .
+
+<@dbTabledata2>  a  <http://metadb.riken.jp/matadb/table/excel/DataColumn> ;
+        <http://metadb.riken.jp/matadb/table/excel/columnNumber>
+                "3"^^xsd:long ;
+        <http://metadb.riken.jp/matadb/table/excel/dataType>
+                rdf:langString ;
+        <http://metadb.riken.jp/matadb/table/excel/property>
+                dc:description ;
+        <http://metadb.riken.jp/matadb/tableView/attribute>
+                "説明"@ja , "description"@en .
+
+<coordinatedata2>  a  <http://metadb.riken.jp/matadb/table/excel/DataColumn> ;
+        <http://metadb.riken.jp/matadb/table/excel/columnNumber>
+                "3"^^xsd:long ;
+        <http://metadb.riken.jp/matadb/table/excel/dataType>
+                xsd:string ;
+        <http://metadb.riken.jp/matadb/table/excel/property>
+                rdfs:label .
+
+<coordinatedata8>  a  <http://metadb.riken.jp/matadb/table/excel/DataColumn> ;
+        <http://metadb.riken.jp/matadb/table/excel/class>
+                pmid: ;
+        <http://metadb.riken.jp/matadb/table/excel/columnNumber>
+                "9"^^xsd:long ;
+        <http://metadb.riken.jp/matadb/table/excel/property>
+                pmid: ;
+        <http://metadb.riken.jp/matadb/tableView/attribute>
+                "PubMed ID (PMID)"@ja , "PubMed ID (PMID)"@en .
+
+<Sheet1data2>  a  <http://metadb.riken.jp/matadb/table/excel/DataColumn> ;
+        <http://metadb.riken.jp/matadb/table/excel/columnNumber>
+                "3"^^xsd:long ;
+        <http://metadb.riken.jp/matadb/table/excel/dataType>
+                xsd:string ;
+        <http://metadb.riken.jp/matadb/table/excel/property>
+                BrainTx:probe ;
+        <http://metadb.riken.jp/matadb/tableView/attribute>
+                "Probe"@ja , "Probe"@en .
+
+<coordinatedata7>  a  <http://metadb.riken.jp/matadb/table/excel/DataColumn> ;
+        <http://metadb.riken.jp/matadb/table/excel/class>
+                rdfs:Class ;
+        <http://metadb.riken.jp/matadb/table/excel/columnNumber>
+                "8"^^xsd:long ;
+        <http://metadb.riken.jp/matadb/table/excel/property>
+                BrainTx:mig ;
+        <http://metadb.riken.jp/matadb/tableView/attribute>
+                "MGI"@ja , "MGI"@en .
+
+<comment3>  a         <http://metadb.riken.jp/matadb/table/excel/Cell> ;
+        rdfs:comment  "Datatype"^^xsd:string ;
+        <http://metadb.riken.jp/matadb/table/excel/rowNumber>
+                "4"^^xsd:long .
+
+<coordinatedata6>  a  <http://metadb.riken.jp/matadb/table/excel/DataColumn> ;
+        <http://metadb.riken.jp/matadb/table/excel/columnNumber>
+                "7"^^xsd:long ;
+        <http://metadb.riken.jp/matadb/table/excel/dataType>
+                xsd:string ;
+        <http://metadb.riken.jp/matadb/table/excel/property>
+                BrainTx:golink ;
+        <http://metadb.riken.jp/matadb/tableView/attribute>
+                "Gene Ontology"@ja , "Gene Ontology"@en .
+
+<coordinatedata10>  a  <http://metadb.riken.jp/matadb/table/excel/DataColumn> ;
+        <http://metadb.riken.jp/matadb/table/excel/columnNumber>
+                "11"^^xsd:long ;
+        <http://metadb.riken.jp/matadb/table/excel/dataType>
+                xsd:string ;
+        <http://metadb.riken.jp/matadb/table/excel/property>
+                BrainTx:probe ;
+        <http://metadb.riken.jp/matadb/tableView/attribute>
+                "Probe"@ja , "Probe"@en .
+
+<comment2>  a         <http://metadb.riken.jp/matadb/table/excel/Cell> ;
+        rdfs:comment  "PropertyURI"^^xsd:string ;
+        <http://metadb.riken.jp/matadb/table/excel/rowNumber>
+                "3"^^xsd:long .
