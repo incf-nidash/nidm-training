@@ -1,0 +1,2373 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dctypes: <http://purl.org/dc/dcmitype/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nidm: <http://nidm.nidash.org/> .
+@prefix project: <https://central.xnat.org/data/projects/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xnat: <https://central.xnat.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+xnat: a dctypes:Dataset ;
+    dct:description "The XNAT Central repository."@en ;
+    dct:hasPart <https://central.xnat.org/data/projects/100RunsPerSubj>,
+        project:ADHD200,
+        project:AVZ_Slicer3Min,
+        project:Aging,
+        project:BC_CT_TOR,
+        project:BP,
+        project:CENTRAL_MRTBrain10,
+        project:CENTRAL_OASIS_CS,
+        project:CENTRAL_OASIS_LONG,
+        project:CENTRAL_hip,
+        project:CSD_MRI_MOUSE,
+        project:CTK_02b39955,
+        project:CTK_074aa696,
+        project:CTK_0ae05eac,
+        project:CTK_0b340bc3,
+        project:CTK_0bdf67ef,
+        project:CTK_15802d02,
+        project:CTK_16336af0,
+        project:CTK_191f701a,
+        project:CTK_1b566538,
+        project:CTK_1cd0db23,
+        project:CTK_1ff2bf88,
+        project:CTK_23424020,
+        project:CTK_27cb4c68,
+        project:CTK_2b1d2fe1,
+        project:CTK_39a57d38,
+        project:CTK_3b3bd748,
+        project:CTK_3ebe4b87,
+        project:CTK_402b4137,
+        project:CTK_41ef174e,
+        project:CTK_432,
+        project:CTK_529cd52f,
+        project:CTK_53318ab6,
+        project:CTK_5493e43f,
+        project:CTK_54e2df91,
+        project:CTK_550a72b4,
+        project:CTK_5be9cf70,
+        project:CTK_5bf26434,
+        project:CTK_5c506f94,
+        project:CTK_65dd0921,
+        project:CTK_6898c5a1,
+        project:CTK_692d7571,
+        project:CTK_69ec3a0e,
+        project:CTK_6d1da2d5,
+        project:CTK_6f8d1d14,
+        project:CTK_72157628,
+        project:CTK_73a390fa,
+        project:CTK_753b4cd3,
+        project:CTK_786c45c8,
+        project:CTK_7a3b9fc0,
+        project:CTK_7c901e94,
+        project:CTK_7e8850b2,
+        project:CTK_7efeab38,
+        project:CTK_8017de28,
+        project:CTK_80924b24,
+        project:CTK_81c3366d,
+        project:CTK_81e64b97,
+        project:CTK_829cd000,
+        project:CTK_83870506,
+        project:CTK_83b3033f,
+        project:CTK_84bcae01,
+        project:CTK_8d28add0,
+        project:CTK_8ed1327f,
+        project:CTK_9205d0de,
+        project:CTK_944c11b1,
+        project:CTK_94829d87,
+        project:CTK_9580ef76,
+        project:CTK_995402a8,
+        project:CTK_9a1a7366,
+        project:CTK_9c1ce9ae,
+        project:CTK_a07dba03,
+        project:CTK_a4a8b16c,
+        project:CTK_a81b1d9e,
+        project:CTK_a9a17f6e,
+        project:CTK_abdc6a40,
+        project:CTK_ace462f1,
+        project:CTK_af3b29ff,
+        project:CTK_b36f163f,
+        project:CTK_b56258ba,
+        project:CTK_b6cce8cf,
+        project:CTK_bdf6ae0f,
+        project:CTK_c023cffe,
+        project:CTK_c097a213,
+        project:CTK_c2363dce,
+        project:CTK_c3540f17,
+        project:CTK_c3fbc11c,
+        project:CTK_c44700b6,
+        project:CTK_d46da802,
+        project:CTK_d5f1704d,
+        project:CTK_d80f9cf4,
+        project:CTK_d8e35a79,
+        project:CTK_d97e9bbd,
+        project:CTK_dd3b131c,
+        project:CTK_e0b2ad56,
+        project:CTK_e63766c4,
+        project:CTK_ea94bec8,
+        project:CTK_ee6fa48f,
+        project:CTK_ef5fc422,
+        project:CTK_f6985ae1,
+        project:CTK_f87808cb,
+        project:CTK_fa4d6176,
+        project:CTK_fa8c7273,
+        project:CTK_fe04651b,
+        project:CTK_rwqrewq,
+        project:CVRG0001,
+        project:Calib,
+        project:DCMPHANTOM,
+        project:DOT_fMRI,
+        project:DTIChallenge12,
+        project:Day3Data,
+        project:DicomRT,
+        project:FCStateClassif,
+        project:FOS_MMC,
+        project:GWE,
+        project:Groupwise,
+        project:H,
+        project:HACKEDPROJECT,
+        project:IGT1,
+        project:IGT_FMRI_NEURO,
+        project:IGT_GLIOMA,
+        project:ISMRMRD,
+        project:L2struc,
+        project:LACT_HD,
+        project:LONI_PL_ICBM,
+        project:MCIC,
+        project:MEG_fMRI,
+        project:ME_epi_mouse,
+        project:MVPA_FEAT_CONJ,
+        project:MVPA_true,
+        project:NCIGT_PROSTATE,
+        project:NEWPROJ,
+        project:NHRD,
+        project:NPTEST,
+        project:NT,
+        project:NUDataSharing,
+        project:NeuroMRT,
+        project:Neuro_MRT_g,
+        project:OJNFC,
+        project:OlgaKotelko,
+        project:Orientation,
+        project:Outcomes,
+        project:PA,
+        project:PALS,
+        project:PB,
+        project:PBNC,
+        project:PFSnovMRI,
+        project:PRO123,
+        project:PROBE,
+        project:PROJ234,
+        project:Plasticity,
+        project:SPL_IGT,
+        project:STSL,
+        project:Sample_DICOM,
+        project:T1rho,
+        project:TESTSG,
+        project:TP_Abbr,
+        project:Upload,
+        project:Volatile,
+        project:XNATSlicerTest,
+        project:XTE_1,
+        project:XTE_2,
+        project:XTE_3,
+        project:XYZ,
+        project:XYZZZZ,
+        project:XnatSlicerTest2,
+        project:_DRC_test1,
+        project:bistable,
+        project:default,
+        project:eTRIKS,
+        project:fMRI_AD_mouse,
+        project:fMRI_AD_mouse2,
+        project:fMRI_DK,
+        project:fMRI_ane_mouse,
+        project:mBIRN_demo,
+        project:mynewtestproject,
+        project:nosetests,
+        project:project,
+        project:qXnatAPITest-Project-95d07390,
+        project:qXnatAPITest_Project_95d07390,
+        project:qXnat_0a2e,
+        project:qXnat_6fa1,
+        project:qXnat_7bb3,
+        project:qXnat_95d07390,
+        project:qXnat_f883,
+        project:slicedrop,
+        project:surfmask_smpl,
+        project:switchigdmnsn,
+        project:testProject_00,
+        project:testSJ2,
+        project:testandaPA,
+        project:unknown,
+        project:zip_test ;
+    dct:publisher xnat: ;
+    dct:title "XNAT Central"@en .
+
+<https://central.xnat.org/data/projects/100RunsPerSubj> a dctypes:Dataset ;
+    dct:alternative "Whole-brain activity"@en ;
+    dct:description "This dataset contains anatomical, average of 100 functional runs and clustering results associated with the PNAS article of the same name as the project."@en ;
+    dct:rights "protected"@en ;
+    dct:title "Whole-brain, time-locked activation with simple tasks revealed using massive averaging and model-free analysis"@en ;
+    dcat:keyword "fMRI, transient responses, clustering, activation extent"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "3" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:ADHD200 a dctypes:Dataset ;
+    dct:alternative "ADHD200"@en ;
+    dct:description "FreeSurfer reconstructions of the ADHD200 data"@en ;
+    dct:rights "public"@en ;
+    dct:title "ADHD200"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "1" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:AVZ_Slicer3Min a dctypes:Dataset ;
+    dct:alternative "AVZ_Slicer3Min"@en ;
+    dct:description "Gray scale image from Slicer 3 Minute Tutorial - with generated DICOM and nrrd files in reconstruction folder"@en ;
+    dct:rights "public"@en ;
+    dct:title "AVZ_Slicer3MinuteTutorial"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "2" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:Aging a dctypes:Dataset ;
+    dct:alternative "Aging_TAU"@en ;
+    dct:description ""@en ;
+    dct:rights "public"@en ;
+    dct:title "Brain correlates of age related cognitive decline"@en ;
+    dcat:keyword "DTI, MRI, aging"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:BC_CT_TOR a dctypes:Dataset ;
+    dct:alternative "BC_CT_TOR"@en ;
+    dct:description "CT torso image volumes collected and manually segmented by the Pediatric Cardiology Department of Boston Children's Hospital and uploaded as a pilot project for the CardioVascular Research Grid (CVRG)."@en ;
+    dct:rights "protected"@en ;
+    dct:title "Boston Children's CT Torsos"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "3" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:BP a dctypes:Dataset ;
+    dct:alternative "Brain plasticity "@en ;
+    dct:description "fMRI"@en ;
+    dct:rights "protected"@en ;
+    dct:title "Combination training increases cognitive performance and modifies the brain resting state activity in healthy aging individuals"@en ;
+    dcat:keyword "Cognitive enrichment, brain plasticity"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CENTRAL_MRTBrain10 a dctypes:Dataset ;
+    dct:alternative "MRTBrain10"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "MRT Brain Non-rigid registration"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "1" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CENTRAL_OASIS_CS a dctypes:Dataset ;
+    dct:alternative "OASIS_CS"@en ;
+    dct:description "See www.oasis-brains.org for details."@en ;
+    dct:rights "public"@en ;
+    dct:title "Oasis Cross-Sectional Studies"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "434" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CENTRAL_OASIS_LONG a dctypes:Dataset ;
+    dct:title "OASIS Longitudinal Studies"@en .
+
+project:CENTRAL_hip a dctypes:Dataset ;
+    dct:alternative "hip"@en ;
+    dct:description "a description"@en ;
+    dct:rights "protected"@en ;
+    dct:title "hippocampus lddmm"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CSD_MRI_MOUSE a dctypes:Dataset ;
+    dct:alternative "CSD Mouse"@en ;
+    dct:description """Chronic social defeat (CSD) was performed over 15 days in mice. \r
+Animals were measured at baseline, and 1 day following the end of the paradigm. rs-fMRI, 3d anatomical, diffusion tensor imaging and spectroscopy were acquired. \r
+Spectroscopy was either performed in the right amygdala or in the prefrontal cortex"""@en ;
+    dct:rights "protected"@en ;
+    dct:title "Chronic social defeat in mouse"@en ;
+    dcat:keyword "MRS, rs-fMRI, DTI, CSD, depression, mouse"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "106" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_02b39955 a dctypes:Dataset ;
+    dct:alternative "CTK_02b39955"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_02b39955"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_074aa696 a dctypes:Dataset ;
+    dct:alternative "CTK_074aa696"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_074aa696"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_0ae05eac a dctypes:Dataset ;
+    dct:alternative "CTK_0ae05eac"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_0ae05eac"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_0b340bc3 a dctypes:Dataset ;
+    dct:alternative "CTK_0b340bc3"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_0b340bc3"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_0bdf67ef a dctypes:Dataset ;
+    dct:alternative "CTK_0bdf67ef"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_0bdf67ef"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_15802d02 a dctypes:Dataset ;
+    dct:alternative "CTK_15802d02"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_15802d02"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_16336af0 a dctypes:Dataset ;
+    dct:alternative "CTK_16336af0"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_16336af0"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_191f701a a dctypes:Dataset ;
+    dct:alternative "CTK_191f701a"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_191f701a"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_1b566538 a dctypes:Dataset ;
+    dct:alternative "CTK_1b566538"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_1b566538"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_1cd0db23 a dctypes:Dataset ;
+    dct:alternative "CTK_1cd0db23"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_1cd0db23"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_1ff2bf88 a dctypes:Dataset ;
+    dct:alternative "CTK_1ff2bf88"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_1ff2bf88"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_23424020 a dctypes:Dataset ;
+    dct:alternative "CTK_23424020"@en ;
+    dct:description "CTK test project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_23424020"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_27cb4c68 a dctypes:Dataset ;
+    dct:alternative "CTK_27cb4c68"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_27cb4c68"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_2b1d2fe1 a dctypes:Dataset ;
+    dct:alternative "CTK_2b1d2fe1"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_2b1d2fe1"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_39a57d38 a dctypes:Dataset ;
+    dct:alternative "CTK_39a57d38"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_39a57d38"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_3b3bd748 a dctypes:Dataset ;
+    dct:alternative "CTK_3b3bd748"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_3b3bd748"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_3ebe4b87 a dctypes:Dataset ;
+    dct:alternative "CTK_3ebe4b87"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_3ebe4b87"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_402b4137 a dctypes:Dataset ;
+    dct:alternative "CTK_402b4137"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_402b4137"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_41ef174e a dctypes:Dataset ;
+    dct:alternative "CTK_41ef174e"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_41ef174e"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_432 a dctypes:Dataset ;
+    dct:alternative "CTK_432"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_432"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_529cd52f a dctypes:Dataset ;
+    dct:alternative "CTK_529cd52f"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_529cd52f"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_53318ab6 a dctypes:Dataset ;
+    dct:alternative "CTK_53318ab6"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_53318ab6"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_5493e43f a dctypes:Dataset ;
+    dct:alternative "CTK_5493e43f"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_5493e43f"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_54e2df91 a dctypes:Dataset ;
+    dct:alternative "CTK_54e2df91"@en ;
+    dct:description "CTK test project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_54e2df91"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_550a72b4 a dctypes:Dataset ;
+    dct:alternative "CTK_550a72b4"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_550a72b4"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_5be9cf70 a dctypes:Dataset ;
+    dct:alternative "CTK_5be9cf70"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_5be9cf70"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_5bf26434 a dctypes:Dataset ;
+    dct:alternative "CTK_5bf26434"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_5bf26434"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_5c506f94 a dctypes:Dataset ;
+    dct:alternative "CTK_5c506f94"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_5c506f94"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_65dd0921 a dctypes:Dataset ;
+    dct:alternative "CTK_65dd0921"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_65dd0921"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_6898c5a1 a dctypes:Dataset ;
+    dct:alternative "CTK_6898c5a1"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_6898c5a1"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_692d7571 a dctypes:Dataset ;
+    dct:alternative "CTK_692d7571"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_692d7571"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_69ec3a0e a dctypes:Dataset ;
+    dct:alternative "CTK_69ec3a0e"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_69ec3a0e"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_6d1da2d5 a dctypes:Dataset ;
+    dct:alternative "CTK_6d1da2d5"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_6d1da2d5"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_6f8d1d14 a dctypes:Dataset ;
+    dct:alternative "CTK_6f8d1d14"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_6f8d1d14"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_72157628 a dctypes:Dataset ;
+    dct:alternative "CTK_72157628"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_72157628"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_73a390fa a dctypes:Dataset ;
+    dct:alternative "CTK_73a390fa"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_73a390fa"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_753b4cd3 a dctypes:Dataset ;
+    dct:alternative "CTK_753b4cd3"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_753b4cd3"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_786c45c8 a dctypes:Dataset ;
+    dct:alternative "CTK_786c45c8"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_786c45c8"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_7a3b9fc0 a dctypes:Dataset ;
+    dct:alternative "CTK_7a3b9fc0"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_7a3b9fc0"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_7c901e94 a dctypes:Dataset ;
+    dct:alternative "CTK_7c901e94"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_7c901e94"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_7e8850b2 a dctypes:Dataset ;
+    dct:alternative "CTK_7e8850b2"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_7e8850b2"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_7efeab38 a dctypes:Dataset ;
+    dct:alternative "CTK_7efeab38"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_7efeab38"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_8017de28 a dctypes:Dataset ;
+    dct:alternative "CTK_8017de28"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_8017de28"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_80924b24 a dctypes:Dataset ;
+    dct:alternative "CTK_80924b24"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_80924b24"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_81c3366d a dctypes:Dataset ;
+    dct:alternative "CTK_81c3366d"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_81c3366d"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_81e64b97 a dctypes:Dataset ;
+    dct:alternative "CTK_81e64b97"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_81e64b97"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_829cd000 a dctypes:Dataset ;
+    dct:alternative "CTK_829cd000"@en ;
+    dct:description "CTK test project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_829cd000"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_83870506 a dctypes:Dataset ;
+    dct:alternative "CTK_83870506"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_83870506"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_83b3033f a dctypes:Dataset ;
+    dct:alternative "CTK_83b3033f"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_83b3033f"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_84bcae01 a dctypes:Dataset ;
+    dct:alternative "CTK_84bcae01"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_84bcae01"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_8d28add0 a dctypes:Dataset ;
+    dct:alternative "CTK_8d28add0"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_8d28add0"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_8ed1327f a dctypes:Dataset ;
+    dct:alternative "CTK_8ed1327f"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_8ed1327f"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_9205d0de a dctypes:Dataset ;
+    dct:alternative "CTK_9205d0de"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_9205d0de"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_944c11b1 a dctypes:Dataset ;
+    dct:alternative "CTK_944c11b1"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_944c11b1"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_94829d87 a dctypes:Dataset ;
+    dct:alternative "CTK_94829d87"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_94829d87"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_9580ef76 a dctypes:Dataset ;
+    dct:alternative "CTK_9580ef76"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_9580ef76"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_995402a8 a dctypes:Dataset ;
+    dct:alternative "CTK_995402a8"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_995402a8"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_9a1a7366 a dctypes:Dataset ;
+    dct:alternative "CTK_9a1a7366"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_9a1a7366"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_9c1ce9ae a dctypes:Dataset ;
+    dct:alternative "CTK_9c1ce9ae"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_9c1ce9ae"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_a07dba03 a dctypes:Dataset ;
+    dct:alternative "CTK_a07dba03"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_a07dba03"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_a4a8b16c a dctypes:Dataset ;
+    dct:alternative "CTK_a4a8b16c"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_a4a8b16c"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_a81b1d9e a dctypes:Dataset ;
+    dct:alternative "CTK_a81b1d9e"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_a81b1d9e"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_a9a17f6e a dctypes:Dataset ;
+    dct:alternative "CTK_a9a17f6e"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_a9a17f6e"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_abdc6a40 a dctypes:Dataset ;
+    dct:alternative "CTK_abdc6a40"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_abdc6a40"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_ace462f1 a dctypes:Dataset ;
+    dct:alternative "CTK_ace462f1"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_ace462f1"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_af3b29ff a dctypes:Dataset ;
+    dct:alternative "CTK_af3b29ff"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_af3b29ff"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_b36f163f a dctypes:Dataset ;
+    dct:alternative "CTK_b36f163f"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_b36f163f"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_b56258ba a dctypes:Dataset ;
+    dct:alternative "CTK_b56258ba"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_b56258ba"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_b6cce8cf a dctypes:Dataset ;
+    dct:alternative "CTK_b6cce8cf"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_b6cce8cf"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_bdf6ae0f a dctypes:Dataset ;
+    dct:alternative "CTK_bdf6ae0f"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_bdf6ae0f"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_c023cffe a dctypes:Dataset ;
+    dct:alternative "CTK_c023cffe"@en ;
+    dct:description "CTK test project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_c023cffe"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_c097a213 a dctypes:Dataset ;
+    dct:alternative "CTK_c097a213"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_c097a213"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_c2363dce a dctypes:Dataset ;
+    dct:alternative "CTK_c2363dce"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_c2363dce"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_c3540f17 a dctypes:Dataset ;
+    dct:alternative "CTK_c3540f17"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_c3540f17"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_c3fbc11c a dctypes:Dataset ;
+    dct:alternative "CTK_c3fbc11c"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_c3fbc11c"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_c44700b6 a dctypes:Dataset ;
+    dct:alternative "CTK_c44700b6"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_c44700b6"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_d46da802 a dctypes:Dataset ;
+    dct:alternative "CTK_d46da802"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_d46da802"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_d5f1704d a dctypes:Dataset ;
+    dct:alternative "CTK_d5f1704d"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_d5f1704d"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_d80f9cf4 a dctypes:Dataset ;
+    dct:alternative "CTK_d80f9cf4"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_d80f9cf4"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_d8e35a79 a dctypes:Dataset ;
+    dct:alternative "CTK_d8e35a79"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_d8e35a79"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_d97e9bbd a dctypes:Dataset ;
+    dct:alternative "CTK_d97e9bbd"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_d97e9bbd"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_dd3b131c a dctypes:Dataset ;
+    dct:alternative "CTK_dd3b131c"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_dd3b131c"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_e0b2ad56 a dctypes:Dataset ;
+    dct:alternative "CTK_e0b2ad56"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_e0b2ad56"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_e63766c4 a dctypes:Dataset ;
+    dct:alternative "CTK_e63766c4"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_e63766c4"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_ea94bec8 a dctypes:Dataset ;
+    dct:alternative "CTK_ea94bec8"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_ea94bec8"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_ee6fa48f a dctypes:Dataset ;
+    dct:alternative "CTK_ee6fa48f"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_ee6fa48f"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_ef5fc422 a dctypes:Dataset ;
+    dct:alternative "CTK_ef5fc422"@en ;
+    dct:description "CTK_test_project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_ef5fc422"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_f6985ae1 a dctypes:Dataset ;
+    dct:alternative "CTK_f6985ae1"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_f6985ae1"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_f87808cb a dctypes:Dataset ;
+    dct:alternative "CTK_f87808cb"@en ;
+    dct:description "CTK test project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_f87808cb"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_fa4d6176 a dctypes:Dataset ;
+    dct:alternative "CTK_fa4d6176"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_fa4d6176"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_fa8c7273 a dctypes:Dataset ;
+    dct:alternative "CTK_fa8c7273"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_fa8c7273"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_fe04651b a dctypes:Dataset ;
+    dct:alternative "CTK_fe04651b"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_fe04651b"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CTK_rwqrewq a dctypes:Dataset ;
+    dct:alternative "CTK_rwqrewq"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "CTK_rwqrewq"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:CVRG0001 a dctypes:Dataset ;
+    dct:alternative "CVRG0001"@en ;
+    dct:description "Testing upload of cardiac data."@en ;
+    dct:rights "protected"@en ;
+    dct:title "CVRG LDDMM Cardiac Data"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "1" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:Calib a dctypes:Dataset ;
+    dct:alternative "mBIRN Calibration"@en ;
+    dct:description """This data set consists of spoiled gradient-recalled echo magnetic\r
+resonance imaging data from five healthy volunteers (four males and one\r
+female) scanned twice at four sites having 1.5T systems from different\r
+vendors(Siemens, GE, Marconi Medical Systems).  Some subjects were also\r
+scanned a single time at another site. One subject was only scanned twice\r
+at three sites (subject 73213384) and once at another site. For each\r
+subject, four Fast Low-Angle Shot (FLASH) scans with flip angles of 3, 5,\r
+20, and 30 degrees were obtained in a single scan session, from which\r
+tissue proton density and T1 maps can be derived. These data were acquired\r
+to investigate various metrics of within-site and across-site\r
+reproducibility.  This study was sponsored by the Brain Morphometry\r
+testbed (MBIRN) of the Biomedical Informatics Research Network (BIRN). \r
+The images have been defaced so that no facial features can be\r
+reconstructed from these data.\r
+"""@en ;
+    dct:rights "public"@en ;
+    dct:title "mBIRN_calib"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "42" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:DCMPHANTOM a dctypes:Dataset ;
+    dct:alternative "Dicomphantoms"@en ;
+    dct:description ""@en ;
+    dct:rights "public"@en ;
+    dct:title "Phantom DICOM data"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "3" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:DOT_fMRI a dctypes:Dataset ;
+    dct:alternative "DOT_fMRI_matched_dataset"@en ;
+    dct:description "This data set is composed of subject-matched data recorded non concurrently with Diffuse Optical Tomography (DOT) and fMRI. Task-based responses to four language tasks were recorded in five subjects. Resting state data was also collected in a set of eight subjects."@en ;
+    dct:rights "protected"@en ;
+    dct:title "Subject matched Diffuse Optical Tomography and fMRI: language tasks and resting state"@en ;
+    dcat:keyword "Diffuse optical tomography fMRI Language resting state functional connectivity"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "16" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:DTIChallenge12 a dctypes:Dataset ;
+    dct:alternative "MICCAI2012 DTI Challenge"@en ;
+    dct:description "MICCAI 2012 DTI Tractography Challenge 2nd Edition"@en ;
+    dct:rights "protected"@en ;
+    dct:title "MICCAI 2012 DTI Tractography Challenge"@en ;
+    dcat:keyword "DTI, Neurosurgery, Tractography"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "14" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:Day3Data a dctypes:Dataset ;
+    dct:alternative "Day3Data"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "Day3Data"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "1" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:DicomRT a dctypes:Dataset ;
+    dct:alternative "DicomRT Samples"@en ;
+    dct:description "These are data samples for the DicomRT extension to DICOM."@en ;
+    dct:rights "public"@en ;
+    dct:title "DicomRT Samples"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:FCStateClassif a dctypes:Dataset ;
+    dct:alternative "FCvsCognitiveState"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "Tracking ongoing cognition in individuals using brief, whole-brain functional connectivity patterns"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:FOS_MMC a dctypes:Dataset ;
+    dct:alternative "FOS Task"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "FOS Task - Block Design"@en ;
+    dcat:keyword "Motor learning, consolidation"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "3" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:GWE a dctypes:Dataset ;
+    dct:alternative "GWE Test Data"@en ;
+    dct:description ""@en ;
+    dct:rights "public"@en ;
+    dct:title "GWE Integration Test Data"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "1" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:Groupwise a dctypes:Dataset ;
+    dct:alternative "NAMIC Groupwise Reg"@en ;
+    dct:description "The NAMIC Groupwise Registration Tutorial represents the convergence of groupwise registration algorithms from Polina Golland's lab at MIT, data from Martha Shenton's group at the Harvard Medical School, and the XNAT project. The goal is to showcase the use of these NAMIC tools and promote the use of the groupwise registration methods throughout the NAMIC community."@en ;
+    dct:rights "protected"@en ;
+    dct:title "NAMIC Groupwise Registration"@en ;
+    dcat:keyword "NAMIC, groupwise registration, image registration"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "50" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:H a dctypes:Dataset ;
+    dct:alternative "Humor"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "Humor"@en ;
+    dcat:keyword "fMRI"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:HACKEDPROJECT a dctypes:Dataset ;
+    dct:alternative "HACKEDPROJECT"@en ;
+    dct:description "Added with CSRF attack from google.com"@en ;
+    dct:rights "protected"@en ;
+    dct:title "HACKEDPROJECT"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:IGT1 a dctypes:Dataset ;
+    dct:alternative "IGT1"@en ;
+    dct:description "Public access data from the Image Guided Therapy program in the Surgical Planning Laboratory at Brigham and Womens Hospital"@en ;
+    dct:rights "protected"@en ;
+    dct:title "SPL Image Guided Therapy"@en ;
+    dcat:keyword "structural mri patient cases surgery surgical"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "9" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:IGT_FMRI_NEURO a dctypes:Dataset ;
+    dct:alternative "NCIGT_Functional_Neuro"@en ;
+    dct:description """This is a collection of 44 publicly available functional mri scans for neurosurgery. The series description is the task performed for that\r
+particular series."""@en ;
+    dct:rights "public"@en ;
+    dct:title "Functional Data for Neurosurgical Planning"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "44" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:IGT_GLIOMA a dctypes:Dataset ;
+    dct:alternative "NCIGT_Intraop_Glioma"@en ;
+    dct:description "This is a collection of 33 publicly available MR data sets containing brain tumors (gliomas).  Each data set contains multiple MR acquisitions (T1, T2, or SPGR) within a single series, as well as a description of the tumor, its size, grade, and location. "@en ;
+    dct:rights "public"@en ;
+    dct:title "NCIGT Intra-operative  MRT Glioma Resection"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "33" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:ISMRMRD a dctypes:Dataset ;
+    dct:alternative "ISMRMRD"@en ;
+    dct:description "Raw data for the ISMRMRD manuscript."@en ;
+    dct:rights "public"@en ;
+    dct:title "ISMRMRD Paper"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "1" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:L2struc a dctypes:Dataset ;
+    dct:alternative "Bilingualism and brain"@en ;
+    dct:description ""@en ;
+    dct:rights "public"@en ;
+    dct:title "Effects of bilingualism on brain structure and function"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "45" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:LACT_HD a dctypes:Dataset ;
+    dct:alternative "LACT_HD"@en ;
+    dct:description """An open-source label atlas correction tool and preliminary results on Huntingtons Disease whole-brain MRI atlases\r
+\r
+Jessica LeeAnn Forbes,  Eun Young Kim,  Jane S Paulsen* and  Hans J Johnson\r
+Original Research, Front. Neuroinform.\r
+Submitted on: 20 Nov 2015, Edited by: Qingming Luo """@en ;
+    dct:rights "protected"@en ;
+    dct:title "Label Atlas Correction Tool"@en ;
+    dcat:keyword "brain MRI, label atlas, open-source, Multi-Modal, ITK, mulit-atlas, Huntingtons disease"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:LONI_PL_ICBM a dctypes:Dataset ;
+    dct:alternative "LONI Pipeline ICBM Data"@en ;
+    dct:description ""@en ;
+    dct:rights "public"@en ;
+    dct:title "LONI_PL_ICBM"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "21" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:MCIC a dctypes:Dataset ;
+    dct:alternative "MCIC"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "The Mind Clinical Imaging Consortium (MCIC): A Multisite MRI Study of Schizophrenia"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "760" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:MEG_fMRI a dctypes:Dataset ;
+    dct:alternative "MEG-fMRI Integration"@en ;
+    dct:description ""@en ;
+    dct:rights "public"@en ;
+    dct:title "MEG-fMRI Integration"@en ;
+    dcat:keyword "MEG, fMRI, multimodal"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:ME_epi_mouse a dctypes:Dataset ;
+    dct:alternative "ME-EPI Mouse"@en ;
+    dct:description "A dataset of 14 multi-echo-epi scans of the mouse brain at rest, acquired at 9.4T with a 2x2 phased-array cryogenic reciever coil"@en ;
+    dct:rights "protected"@en ;
+    dct:title "Multi-echo gradient-echo EPI resting-state fMRI in mice"@en ;
+    dcat:keyword "ME-EPI, mouse, rodent"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "14" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:MVPA_FEAT_CONJ a dctypes:Dataset ;
+    dct:alternative "Conjunctive Coding"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "Conjunctive coding of complex object features in human anterior temporal cortex"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "19" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:MVPA_true a dctypes:Dataset ;
+    dct:alternative "Decoding true answers"@en ;
+    dct:description "Human fMRI data for the paper &quot;Decoding subjectively true &#147;Yes/No&#148; thoughts in the human brain using fMRI&quot;"@en ;
+    dct:rights "public"@en ;
+    dct:title "Decoding subjectively true &#147;Yes/No&#148; thoughts in the human brain using fMRI"@en ;
+    dcat:keyword "dorsolateral prefrontal cortex, fMRI, multivariate pattern analysis, searchlight, truthful answer"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:NCIGT_PROSTATE a dctypes:Dataset ;
+    dct:alternative "BWH MRI Prostate"@en ;
+    dct:description """BWH MRI Prostate data. 10 datasets, including a derived segmentation\r
+series with labelmaps.\r
+"""@en ;
+    dct:rights "public"@en ;
+    dct:title "Prostate MRI Database"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "10" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:NEWPROJ a dctypes:Dataset ;
+    dct:alternative "NEWPROJ"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "NEWPROJ"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:NHRD a dctypes:Dataset ;
+    dct:alternative "NAMIC High Res DTI"@en ;
+    dct:description ""@en ;
+    dct:rights "public"@en ;
+    dct:title "NAMIC High Resolution DTI"@en ;
+    dcat:keyword "MRI MPRAGE DTI"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "1" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:NPTEST a dctypes:Dataset ;
+    dct:alternative "NipypeTest"@en ;
+    dct:description "Test project to store nipype output."@en ;
+    dct:rights "public"@en ;
+    dct:title "NipypeTest"@en ;
+    dcat:keyword "nipype, "@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:NT a dctypes:Dataset ;
+    dct:alternative "NT"@en ;
+    dct:description "this is a test"@en ;
+    dct:rights "protected"@en ;
+    dct:title "NITRC Test"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "1" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:NUDataSharing a dctypes:Dataset ;
+    dct:alternative "NUSDAST"@en ;
+    dct:description """To access data, please read and sign the &lt;a href=&quot;http://niacal.northwestern.edu/nusdast_accessors/new&quot;&gt;\r
+Data Use Agreement&lt;/a&gt; first. \r
+As part of the growing field of Computational Anatomy (CA), our group has developed tools to identify and characterize abnormalities of brain structure in subjects with schizophrenia, some of which have the characteristics of disease endophenotypes. In this effort, we have collected high-resolution magnetic resonance (MR) datasets from large cohorts of subjects using the same MR scanner platform and sequences. In addition, we have tested and validated atlas-based large-deformation diffeomorphic mapping tools for generating segmentations of brain structures as represented in high-resolution MR images. \r
+\r
+&lt;p&gt;&lt;p&gt;\r
+This project will make available MR images, demographic, clinical, neurocognitive and genotype data from 139 subjects with schizophrenia and 136 control subjects matched for age and gender, in a federated database.  \r
+\r
+&lt;p&gt;&lt;p&gt;\r
+All MR data are in AnalyzeTM format.  The dataset includes high-resolution T1- (FLASH and MPRAGE) and T2- (TSE) weighted MR scans, in AnalyzeTM format.  The dataset also includes manual segmentation for: Hippocampus, Amygdala, Thalamus, Basal Ganglia (caudate nucleus, nucleus accumbens, putamen, globus pallidus), Cingulate gyrus, include the anterior, posterior segments, Prefrontal cortex (including superior, middle and inferior gyri), and Parahippocampal gyrus (including entorhinal, perirhinal and parahippocampal cortices).\r
+\r
+&lt;p&gt;&lt;p&gt;\r
+The clinical datasets include diagnosis, age, gender, parental socioeconomic status, as well as measures of the severity of psychopathology.\r
+\r
+&lt;p&gt;&lt;p&gt;\r
+The battery of neuropsychological tests includes tasks relevant to prior studies of cognition in schizophrenia. Tasks are grouped into the following four domains: Working Memory, Episodic Memory, Executive Function, Crystallized Intelligence.\r
+\r
+&lt;p&gt;&lt;p&gt;\r
+The genotyping data will include BDNF (rs6265), EGFR (rs10228436), FGF-2 (rs1048201), and IL-3 (rs40401).  \r
+\r
+&lt;p&gt;&lt;p&gt;\r
+These data can be used to test and validate new brain mapping tools.\r
+These data can be used to generate or test new hypotheses related to abnormalities of brain structures and neural networks in individuals with schizophrenia.\r
+\r
+&lt;p&gt;&lt;p&gt;\r
+This project was funded by the NIMH: 1R01 MH084803 \r
+"""@en ;
+    dct:rights "protected"@en ;
+    dct:title "NU Schizophrenia Data and Software Tool Federation using BIRN Infrastructure (NUSDAST)"@en ;
+    dcat:keyword "Schizophrenia, neuroimaging, BIRN"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "569" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:NeuroMRT a dctypes:Dataset ;
+    dct:alternative "Neuro-MRT Image Database"@en ;
+    dct:description "Public access neurosurgical cases made available by the Image Guided Therapy Program at Harvard-Brigham and Women's Hospital."@en ;
+    dct:rights "public"@en ;
+    dct:title "NCIGT-Harvard-Brigham Neurosurgical Intraoperative Image Database"@en ;
+    dcat:keyword "neurosurgery planning preoperative MRI BWH SPL"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "76" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:Neuro_MRT_g a dctypes:Dataset ;
+    dct:alternative "Neuro-MRT genesis data"@en ;
+    dct:description """Public access neurosurgical cases made available by the Image Guided Therapy Program at Harvard-Brigham and Women's Hospital. This data was\r
+originally in GENESIS format"""@en ;
+    dct:rights "public"@en ;
+    dct:title "NCIGT-Harvard-BWH Neurosurgical Intraoperative Image Database GENESIS format data"@en ;
+    dcat:keyword "neurosurgery planning preoperative MRI BWH SPL"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "27" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:OJNFC a dctypes:Dataset ;
+    dct:alternative "OJ, NFC"@en ;
+    dct:description "Test 123"@en ;
+    dct:rights "protected"@en ;
+    dct:title "Orange Juice, Not From Concentrate"@en ;
+    dcat:keyword "Orange Juice, Not From Concentrate"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:OlgaKotelko a dctypes:Dataset ;
+    dct:alternative "Olga Kotelko&apos;s brain"@en ;
+    dct:description """This is the MRI data (DTI, anatomical, and T2-WI) of an exceptional nonagenarian Olga Kotelko (1919-2014), acquired in 2012 when she was 93. Olga began engaging in regular exercise after retiring at 65, trained for competitions since age of 77, and as of June 2014 held over 30 world records in her age category in track-and-field. https://en.wikipedia.org/wiki/Olga_Kotelko\r
+The data is published in Neurocase http://dx.doi.org/10.1080/13554794.2015.1074709"""@en ;
+    dct:rights "public"@en ;
+    dct:title "Structural MRI data of Olga Kotelko (1919-2014): a world-famous nonagenarian track and field athlete"@en ;
+    dcat:keyword "aging oldest-old athlete DTI white matter hyperintensity hippocampus fitness"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "1" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:Orientation a dctypes:Dataset ;
+    dct:alternative "Orientation"@en ;
+    dct:description "fMRI data set on spatial orientation"@en ;
+    dct:rights "public"@en ;
+    dct:title "Neural Networks and Orientation"@en ;
+    dcat:keyword "fMRI, spatial orientation, resting state"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:Outcomes a dctypes:Dataset ;
+    dct:alternative "Autism outcomes rs-fMRI"@en ;
+    dct:description "31 resting-state fMRI and structural scans from individuals with Autism Spectrum Disorder. Outcome measures (ABAS and SRS scores) are included as well. "@en ;
+    dct:rights "protected"@en ;
+    dct:title "Resting-state functional connectivity predicts longitudinal change in autistic traits and adaptive functioning in autism"@en ;
+    dcat:keyword "autism, ASD, rs-fMRI, resting-state, machine learning"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:PA a dctypes:Dataset ;
+    dct:alternative "PA"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "PA"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:PALS a dctypes:Dataset ;
+    dct:alternative "PALS"@en ;
+    dct:description "Cases composing the PALS atlas as borrowed from the OASIS cross-sectional data set. Includes raw T1 images, FSL's FAST tissue-segmented images, and Freesurfer-generated surfaces and subcortical parcellations."@en ;
+    dct:rights "public"@en ;
+    dct:title "PALS: Population-Average, Landmark- and Surface-based atlas"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "11" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:PB a dctypes:Dataset ;
+    dct:alternative "PB"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "PB"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:PBNC a dctypes:Dataset ;
+    dct:alternative "PBNC"@en ;
+    dct:description "A central location for sharing images for the PBNC"@en ;
+    dct:rights "protected"@en ;
+    dct:title "Pediatric Bipolar Neuroimaging Consortium"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "18" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:PFSnovMRI a dctypes:Dataset ;
+    dct:alternative "fMRI episodic simulation"@en ;
+    dct:description "This dataset contains functional MRI data investigating repetition in episodic simulation, and was made accessible to go along with a paper. "@en ;
+    dct:rights "protected"@en ;
+    dct:title "Functional MRI dataset of episodic simulation study"@en ;
+    dcat:keyword "fmri, hippocampus, episodic simulation, repetition"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:PRO123 a dctypes:Dataset ;
+    dct:alternative "PRO123"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "PRO123"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "1" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:PROBE a dctypes:Dataset ;
+    dct:alternative "fMRI PROBE"@en ;
+    dct:description ""@en ;
+    dct:rights "public"@en ;
+    dct:title "fMRI data for model PROBE experiment"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "80" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:PROJ234 a dctypes:Dataset ;
+    dct:alternative "PROJ234"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "PROJ234"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "1" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:Plasticity a dctypes:Dataset ;
+    dct:alternative "Brain plasticity"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "Neural mechanisms of brain plasticity with complex cognitive training in healthy seniors"@en ;
+    dcat:keyword "aging"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:SPL_IGT a dctypes:Dataset ;
+    dct:alternative "NCIGT SPL"@en ;
+    dct:description "NCIGT MRT Tumor Resection"@en ;
+    dct:rights "protected"@en ;
+    dct:title "NCIGT"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "3" ;
+    xnat:mrCount "140" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:STSL a dctypes:Dataset ;
+    dct:alternative "Object identity mapping"@en ;
+    dct:description "A collection of functional mri datasets used to map areas involved in individual-level object categorization"@en ;
+    dct:rights "protected"@en ;
+    dct:title "Spatiotemporal object identity mapping"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "26" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:Sample_DICOM a dctypes:Dataset ;
+    dct:alternative "Sample_DICOM"@en ;
+    dct:description ""@en ;
+    dct:rights "public"@en ;
+    dct:title "Sample DICOM dataset"@en ;
+    dcat:keyword "DICOM"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "1" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:T1rho a dctypes:Dataset ;
+    dct:alternative "Functional T1rho"@en ;
+    dct:description "Functional T1rho Imaging Data"@en ;
+    dct:rights "protected"@en ;
+    dct:title "Functional T1rho Imaging"@en ;
+    dcat:keyword "Retinotopic Mapping, T1rho, BOLD, ASL"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:TESTSG a dctypes:Dataset ;
+    dct:alternative "TESTSG"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "TESTSG"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:TP_Abbr a dctypes:Dataset ;
+    dct:alternative "Test Project Title"@en ;
+    dct:description "My_Description"@en ;
+    dct:rights "public"@en ;
+    dct:title "Test Project"@en ;
+    dcat:keyword "My_Keywords"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:Upload a dctypes:Dataset ;
+    dct:alternative "Upload Sample"@en ;
+    dct:description ""@en ;
+    dct:rights "public"@en ;
+    dct:title "Upload Sample"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:Volatile a dctypes:Dataset ;
+    dct:alternative "Volatile"@en ;
+    dct:description "itsnotme"@en ;
+    dct:rights "protected"@en ;
+    dct:title "Volatile"@en ;
+    dcat:keyword "itsher"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "97" ;
+    xnat:petCount "3" ;
+    xnat:role "" .
+
+project:XNATSlicerTest a dctypes:Dataset ;
+    dct:alternative "XNATSlicerTest"@en ;
+    dct:description ""@en ;
+    dct:rights "public"@en ;
+    dct:title "XNATSlicerTest"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "1" ;
+    xnat:mrCount "1" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:XTE_1 a dctypes:Dataset ;
+    dct:alternative "XNAT_Test_Emory_1"@en ;
+    dct:description ""@en ;
+    dct:rights "public"@en ;
+    dct:title "XNAT_Test_Emory_1"@en ;
+    dcat:keyword "XTE_Keyword_1"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:XTE_2 a dctypes:Dataset ;
+    dct:alternative "XNAT_Test_Emory_2"@en ;
+    dct:description ""@en ;
+    dct:rights "public"@en ;
+    dct:title "XNAT_Test_Emory_2"@en ;
+    dcat:keyword "XTE_Keyword_2"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:XTE_3 a dctypes:Dataset ;
+    dct:alternative "XTE_3"@en ;
+    dct:description "XTE_3_Description"@en ;
+    dct:rights "protected"@en ;
+    dct:title "XTE_3"@en ;
+    dcat:keyword "XTE_3_Keywords"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:XYZ a dctypes:Dataset ;
+    dct:alternative "XYZ"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "XYZ"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:XYZZZZ a dctypes:Dataset ;
+    dct:alternative "XYZZZZ"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "XYZZZZ"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:XnatSlicerTest2 a dctypes:Dataset ;
+    dct:alternative "XnatSlicerTest2"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "XnatSlicerTest2"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:_DRC_test1 a dctypes:Dataset ;
+    dct:alternative "_DRC_test1"@en ;
+    dct:description "_DRC_test1"@en ;
+    dct:rights "public"@en ;
+    dct:title "_DRC_test1"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "1" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:bistable a dctypes:Dataset ;
+    dct:alternative "Bistable Perception fMRI"@en ;
+    dct:description "For details of this project, see Wang, Artega &amp; He, PNAS 2013"@en ;
+    dct:rights "protected"@en ;
+    dct:title "Brain mechanisms for simple perception and bistable perception "@en ;
+    dcat:keyword "fMRI; bistable perception; vision; perceptual memory"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "2" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:default a dctypes:Dataset ;
+    dct:alternative "default"@en ;
+    dct:description "test xnd upload project"@en ;
+    dct:rights "protected"@en ;
+    dct:title "default"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "1" ;
+    xnat:mrCount "5" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:eTRIKS a dctypes:Dataset ;
+    dct:alternative "eTRIKS-Imaging"@en ;
+    dct:description "Data repository for linking XNAT into eTRIKS repository"@en ;
+    dct:rights "public"@en ;
+    dct:title "Optimise"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "9" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:fMRI_AD_mouse a dctypes:Dataset ;
+    dct:alternative "RS fMRI ArcAbeta mouse"@en ;
+    dct:description """ArcAbeta mouse model of AD was studies in a cross-sectional design at 1, 2, 5, 8, 11, 19 and 21 months. Resting state fMRI and DTI was performed in isoflurane anesthetized mice using a 9.4T Biospec magnet, and a cryogenic surface reciever coil. \r
+For details, please refer to Grandjean et al. J.Neuro 2014"""@en ;
+    dct:rights "public"@en ;
+    dct:title "Resting state fMRI and diffusion tensor imaging in a mouse model of cerebral amyloidosis"@en ;
+    dcat:keyword "resting-state, functional connectivity, "@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "245" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:fMRI_AD_mouse2 a dctypes:Dataset ;
+    dct:alternative "fMRI/MRI of APP tg lines"@en ;
+    dct:description """3 different APP transgenic strains were investigated using resting-state fMRI, volumetric MRI, and diffusion weighted imaging. \r
+Each strain present different type of amyloid pathologies: \r
+E22{delta}A{beta} with Swedish mutation (K670N+M671L) and Osaka mutation (E693{delta}) presents only intracellular amyloid deposits.\r
+ArcA{beta} with Swedish mutation (K670N+M671L) and the Arctic mutation (E693G)  presents intracellular amyloid deposits, parenchymal and vascular amyloid plaques. \r
+PSAPP with Swedish mutation (K670N+M671L) and PS1 {delta}E9 mutation presents parenchymal plaques.\r
+For details, see: Grandjean et al. Complex interplay between brain function and structure during cerebral amyloidosis in APP transgenic mouse strains revealed by multi-parametric MRI comparison , Neuroimage 2016"""@en ;
+    dct:rights "public"@en ;
+    dct:title "fMRI/MRI phenotyping of 3 differnet APP transgenic mouse models of Alzheimer&apos;s disease"@en ;
+    dcat:keyword "APP, ArcAbeta, PSAPP, alzheimer, fMRI"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "68" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:fMRI_DK a dctypes:Dataset ;
+    dct:alternative "fMRI decision-making"@en ;
+    dct:description """fMRI data for integration of rules and preferences in human decision-making\r
+Data acquired in Hospital Pitie Salpetriere"""@en ;
+    dct:rights "protected"@en ;
+    dct:title "fMRI data for integration of rules and preferences in human decision-making"@en ;
+    dcat:keyword "human, 3T MRI TRIO Siemens"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "46" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:fMRI_ane_mouse a dctypes:Dataset ;
+    dct:alternative "fMRI anesthesia in mice"@en ;
+    dct:description "BOLD Resting-state fMRI in mice were acquired on a 9.4T Bruker magnet using a 2x2 phased-array cryogenic coil. Anesthesia protocols are compared: Isoflurane 1%, Medetomidine 0.1mg/kg+0.2mg/kg/h, Medetomidine 0.05mg/kg+0.1mg/kg/h, Propofol 30 mg/kg, Urethane 1.5g/kg and Isoflurane 0.5% + Medetomidine 0.05mg/kg+0.1mg/kg/h combined. For details, see Grandjean, Schroeter et al. Neuroimage 2014"@en ;
+    dct:rights "public"@en ;
+    dct:title "Resting-state anesthetic protocol comparison in mice"@en ;
+    dcat:keyword "resting state, isoflurane, medetomidine, propofol, urethane, mice, mouse, rodent"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "64" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:mBIRN_demo a dctypes:Dataset ;
+    dct:alternative "mBIRN_demo"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "mBIRN_demo"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:mynewtestproject a dctypes:Dataset ;
+    dct:alternative "mynewtestproject"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "mynewtestproject"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:nosetests a dctypes:Dataset ;
+    dct:alternative "nosetests"@en ;
+    dct:description "Random_project_description_36"@en ;
+    dct:rights "protected"@en ;
+    dct:title "nosetests"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "7" ;
+    xnat:petCount "2" ;
+    xnat:role "" .
+
+project:project a dctypes:Dataset ;
+    dct:alternative "project"@en ;
+    dct:description ""@en ;
+    dct:rights "private"@en ;
+    dct:title "Project"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "12" ;
+    xnat:petCount "" ;
+    xnat:role "Owners" .
+
+project:qXnatAPITest-Project-95d07390 a dctypes:Dataset ;
+    dct:alternative "qXnatAPITest-Project-95d07390"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "qXnatAPITest-Project-95d07390"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:qXnatAPITest_Project_95d07390 a dctypes:Dataset ;
+    dct:alternative "qXnatAPITest_Project_95d07390"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "qXnatAPITest_Project_95d07390"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:qXnat_0a2e a dctypes:Dataset ;
+    dct:alternative "qXnat_0a2e"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "qXnat_0a2e"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:qXnat_6fa1 a dctypes:Dataset ;
+    dct:alternative "qXnat_6fa1"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "qXnat_6fa1"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:qXnat_7bb3 a dctypes:Dataset ;
+    dct:alternative "qXnat_7bb3"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "qXnat_7bb3"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:qXnat_95d07390 a dctypes:Dataset ;
+    dct:alternative "qXnat_95d07390"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "qXnat_95d07390"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:qXnat_f883 a dctypes:Dataset ;
+    dct:alternative "qXnat_f883"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "qXnat_f883"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:slicedrop a dctypes:Dataset ;
+    dct:alternative "Slice:Drop"@en ;
+    dct:description "Yo, drop tha slize!!!"@en ;
+    dct:rights "public"@en ;
+    dct:title "Slice:Drop"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:surfmask_smpl a dctypes:Dataset ;
+    dct:alternative "surfmask_smpl"@en ;
+    dct:description "The collection of structural T1 MRI scans from &quot;Functional Data for Neurosurgical Planning&quot; (IGT_FMRI_NEURO) project processed with surface obscuring algorithm."@en ;
+    dct:rights "public"@en ;
+    dct:title "Surface masking samples"@en ;
+    dcat:keyword "surface mask, privacy"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "43" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:switchigdmnsn a dctypes:Dataset ;
+    dct:alternative "state switching"@en ;
+    dct:description "Anticipatory processes in brain state switching (rest-to-task and task-to-rest) implicating the DMN and SN (rAI). "@en ;
+    dct:rights "protected"@en ;
+    dct:title "Anticipatory processes in brain state switching "@en ;
+    dcat:keyword "State switching, task switching, DMN, SN, Insula "@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:testProject_00 a dctypes:Dataset ;
+    dct:alternative "testProject_002"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "testProject_002"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:testSJ2 a dctypes:Dataset ;
+    dct:alternative "testSJ2"@en ;
+    dct:description "test2"@en ;
+    dct:rights "protected"@en ;
+    dct:title "testSJ2"@en ;
+    dcat:keyword "test2"@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:testandaPA a dctypes:Dataset ;
+    dct:alternative "testandaRT"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "testandaT"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "1" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:unknown a dctypes:Dataset ;
+    dct:alternative "unknown"@en ;
+    dct:description ""@en ;
+    dct:rights "protected"@en ;
+    dct:title "unknown"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
+project:zip_test a dctypes:Dataset ;
+    dct:alternative "zip_test"@en ;
+    dct:description "zip test"@en ;
+    dct:rights "public"@en ;
+    dct:title "zip_test"@en ;
+    dcat:keyword ""@en ;
+    xnat:ctCount "" ;
+    xnat:mrCount "" ;
+    xnat:petCount "" ;
+    xnat:role "" .
+
