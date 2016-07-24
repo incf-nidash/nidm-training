@@ -1,0 +1,250 @@
+id,Title,Description,Running Title,Keywords,MR Count,PET Count,CT Count,Role,Accessibility
+100RunsPerSubj,"Whole-brain, time-locked activation with simple tasks revealed using massive averaging and model-free analysis","This dataset contains anatomical, average of 100 functional runs and clustering results associated with the PNAS article of the same name as the project.",Whole-brain activity,"fMRI, transient responses, clustering, activation extent",3,,,,protected
+ADHD200,ADHD200,FreeSurfer reconstructions of the ADHD200 data,ADHD200,,1,,,,public
+Aging,Brain correlates of age related cognitive decline,,Aging_TAU,"DTI, MRI, aging",,,,,public
+AVZ_Slicer3Min,AVZ_Slicer3MinuteTutorial,Gray scale image from Slicer 3 Minute Tutorial - with generated DICOM and nrrd files in reconstruction folder,AVZ_Slicer3Min,,,,2,,public
+BC_CT_TOR,Boston Children's CT Torsos,CT torso image volumes collected and manually segmented by the Pediatric Cardiology Department of Boston Children's Hospital and uploaded as a pilot project for the CardioVascular Research Grid (CVRG).,BC_CT_TOR,,,,3,,protected
+bistable,Brain mechanisms for simple perception and bistable perception ,"For details of this project, see Wang, Artega &amp; He, PNAS 2013",Bistable Perception fMRI,fMRI; bistable perception; vision; perceptual memory,2,,,,protected
+BP,Combination training increases cognitive performance and modifies the brain resting state activity in healthy aging individuals,fMRI,Brain plasticity ,"Cognitive enrichment, brain plasticity",,,,,protected
+Calib,mBIRN_calib,"This data set consists of spoiled gradient-recalled echo magnetic
+resonance imaging data from five healthy volunteers (four males and one
+female) scanned twice at four sites having 1.5T systems from different
+vendors(Siemens, GE, Marconi Medical Systems).  Some subjects were also
+scanned a single time at another site. One subject was only scanned twice
+at three sites (subject 73213384) and once at another site. For each
+subject, four Fast Low-Angle Shot (FLASH) scans with flip angles of 3, 5,
+20, and 30 degrees were obtained in a single scan session, from which
+tissue proton density and T1 maps can be derived. These data were acquired
+to investigate various metrics of within-site and across-site
+reproducibility.  This study was sponsored by the Brain Morphometry
+testbed (MBIRN) of the Biomedical Informatics Research Network (BIRN). 
+The images have been defaced so that no facial features can be
+reconstructed from these data.
+",mBIRN Calibration,,42,,,,public
+CENTRAL_hip,hippocampus lddmm,a description,hip,,,,,,protected
+CENTRAL_MRTBrain10,MRT Brain Non-rigid registration,,MRTBrain10,,1,,,,protected
+CENTRAL_OASIS_CS,Oasis Cross-Sectional Studies,See www.oasis-brains.org for details.,OASIS_CS,,434,,,,public
+CENTRAL_OASIS_LONG,OASIS Longitudinal Studies,"The Open Access Series of Imaging Studies (OASIS) is a series of MRI data sets that is publicly available for study and analysis.  The present data set consists of a longitudinal collection of 151 subjects aged 60 to 98. Each subject was scanned on two or more visits, separated by at least one year.  All subjects were characterized using the Clinical Dementia Rating (CDR) are either nondemented or with very mild to mild dementia of the Alzheimer’s type (DAT).  77 of the subjects were characterized as nondemented at the time of each of their visits.  64 of the included subjects were characterized as demented at the time of their initial visits and remained so for subsequent scans.  Another 10 subjects were characterized as nondemented at the time of their initial visit and were subsequently characterized as demented at the time of one or more later visits. The subjects were all right-handed and include both men (n=62) and women (n=89).  For each scanning session, 3 or 4 individual T1-weighted MRI scans were obtained. Multiple within-session acquisitions provide extremely high contrast-to-noise making the data amenable to a wide range of analytic approaches including automated computational analysis. Automated calculation of whole brain volume and estimated total intracranial volume are presented to demonstrate use of the data for measuring differences associated with normal aging and Alzheimer’s disease. ",OASIS_LONG,,372,,,,public
+CSD_MRI_MOUSE,Chronic social defeat in mouse,"Chronic social defeat (CSD) was performed over 15 days in mice. 
+Animals were measured at baseline, and 1 day following the end of the paradigm. rs-fMRI, 3d anatomical, diffusion tensor imaging and spectroscopy were acquired. 
+Spectroscopy was either performed in the right amygdala or in the prefrontal cortex",CSD Mouse,"MRS, rs-fMRI, DTI, CSD, depression, mouse",106,,,,protected
+CTK_02b39955,CTK_02b39955,CTK_test_project,CTK_02b39955,,,,,,protected
+CTK_074aa696,CTK_074aa696,,CTK_074aa696,,,,,,protected
+CTK_0ae05eac,CTK_0ae05eac,,CTK_0ae05eac,,,,,,protected
+CTK_0b340bc3,CTK_0b340bc3,CTK_test_project,CTK_0b340bc3,,,,,,protected
+CTK_0bdf67ef,CTK_0bdf67ef,CTK_test_project,CTK_0bdf67ef,,,,,,protected
+CTK_15802d02,CTK_15802d02,CTK_test_project,CTK_15802d02,,,,,,protected
+CTK_16336af0,CTK_16336af0,,CTK_16336af0,,,,,,protected
+CTK_191f701a,CTK_191f701a,,CTK_191f701a,,,,,,protected
+CTK_1b566538,CTK_1b566538,CTK_test_project,CTK_1b566538,,,,,,protected
+CTK_1cd0db23,CTK_1cd0db23,CTK_test_project,CTK_1cd0db23,,,,,,protected
+CTK_1ff2bf88,CTK_1ff2bf88,,CTK_1ff2bf88,,,,,,protected
+CTK_23424020,CTK_23424020,CTK test project,CTK_23424020,,,,,,protected
+CTK_27cb4c68,CTK_27cb4c68,CTK_test_project,CTK_27cb4c68,,,,,,protected
+CTK_2b1d2fe1,CTK_2b1d2fe1,CTK_test_project,CTK_2b1d2fe1,,,,,,protected
+CTK_39a57d38,CTK_39a57d38,CTK_test_project,CTK_39a57d38,,,,,,protected
+CTK_3b3bd748,CTK_3b3bd748,,CTK_3b3bd748,,,,,,protected
+CTK_3ebe4b87,CTK_3ebe4b87,CTK_test_project,CTK_3ebe4b87,,,,,,protected
+CTK_402b4137,CTK_402b4137,,CTK_402b4137,,,,,,protected
+CTK_41ef174e,CTK_41ef174e,,CTK_41ef174e,,,,,,protected
+CTK_432,CTK_432,,CTK_432,,,,,,protected
+CTK_529cd52f,CTK_529cd52f,,CTK_529cd52f,,,,,,protected
+CTK_53318ab6,CTK_53318ab6,,CTK_53318ab6,,,,,,protected
+CTK_5493e43f,CTK_5493e43f,CTK_test_project,CTK_5493e43f,,,,,,protected
+CTK_54e2df91,CTK_54e2df91,CTK test project,CTK_54e2df91,,,,,,protected
+CTK_550a72b4,CTK_550a72b4,,CTK_550a72b4,,,,,,protected
+CTK_5be9cf70,CTK_5be9cf70,CTK_test_project,CTK_5be9cf70,,,,,,protected
+CTK_5bf26434,CTK_5bf26434,,CTK_5bf26434,,,,,,protected
+CTK_5c506f94,CTK_5c506f94,,CTK_5c506f94,,,,,,protected
+CTK_65dd0921,CTK_65dd0921,,CTK_65dd0921,,,,,,protected
+CTK_6898c5a1,CTK_6898c5a1,,CTK_6898c5a1,,,,,,protected
+CTK_692d7571,CTK_692d7571,,CTK_692d7571,,,,,,protected
+CTK_69ec3a0e,CTK_69ec3a0e,,CTK_69ec3a0e,,,,,,protected
+CTK_6d1da2d5,CTK_6d1da2d5,,CTK_6d1da2d5,,,,,,protected
+CTK_6f8d1d14,CTK_6f8d1d14,,CTK_6f8d1d14,,,,,,protected
+CTK_72157628,CTK_72157628,CTK_test_project,CTK_72157628,,,,,,protected
+CTK_73a390fa,CTK_73a390fa,CTK_test_project,CTK_73a390fa,,,,,,protected
+CTK_753b4cd3,CTK_753b4cd3,CTK_test_project,CTK_753b4cd3,,,,,,protected
+CTK_786c45c8,CTK_786c45c8,,CTK_786c45c8,,,,,,protected
+CTK_7a3b9fc0,CTK_7a3b9fc0,,CTK_7a3b9fc0,,,,,,protected
+CTK_7c901e94,CTK_7c901e94,,CTK_7c901e94,,,,,,protected
+CTK_7e8850b2,CTK_7e8850b2,CTK_test_project,CTK_7e8850b2,,,,,,protected
+CTK_7efeab38,CTK_7efeab38,,CTK_7efeab38,,,,,,protected
+CTK_8017de28,CTK_8017de28,,CTK_8017de28,,,,,,protected
+CTK_80924b24,CTK_80924b24,CTK_test_project,CTK_80924b24,,,,,,protected
+CTK_81c3366d,CTK_81c3366d,CTK_test_project,CTK_81c3366d,,,,,,protected
+CTK_81e64b97,CTK_81e64b97,,CTK_81e64b97,,,,,,protected
+CTK_829cd000,CTK_829cd000,CTK test project,CTK_829cd000,,,,,,protected
+CTK_83870506,CTK_83870506,CTK_test_project,CTK_83870506,,,,,,protected
+CTK_83b3033f,CTK_83b3033f,,CTK_83b3033f,,,,,,protected
+CTK_84bcae01,CTK_84bcae01,,CTK_84bcae01,,,,,,protected
+CTK_8d28add0,CTK_8d28add0,,CTK_8d28add0,,,,,,protected
+CTK_8ed1327f,CTK_8ed1327f,CTK_test_project,CTK_8ed1327f,,,,,,protected
+CTK_9205d0de,CTK_9205d0de,CTK_test_project,CTK_9205d0de,,,,,,protected
+CTK_944c11b1,CTK_944c11b1,,CTK_944c11b1,,,,,,protected
+CTK_94829d87,CTK_94829d87,,CTK_94829d87,,,,,,protected
+CTK_9580ef76,CTK_9580ef76,,CTK_9580ef76,,,,,,protected
+CTK_995402a8,CTK_995402a8,CTK_test_project,CTK_995402a8,,,,,,protected
+CTK_9a1a7366,CTK_9a1a7366,,CTK_9a1a7366,,,,,,protected
+CTK_9c1ce9ae,CTK_9c1ce9ae,,CTK_9c1ce9ae,,,,,,protected
+CTK_a07dba03,CTK_a07dba03,CTK_test_project,CTK_a07dba03,,,,,,protected
+CTK_a4a8b16c,CTK_a4a8b16c,CTK_test_project,CTK_a4a8b16c,,,,,,protected
+CTK_a81b1d9e,CTK_a81b1d9e,,CTK_a81b1d9e,,,,,,protected
+CTK_a9a17f6e,CTK_a9a17f6e,,CTK_a9a17f6e,,,,,,protected
+CTK_abdc6a40,CTK_abdc6a40,,CTK_abdc6a40,,,,,,protected
+CTK_ace462f1,CTK_ace462f1,,CTK_ace462f1,,,,,,protected
+CTK_af3b29ff,CTK_af3b29ff,,CTK_af3b29ff,,,,,,protected
+CTK_b36f163f,CTK_b36f163f,CTK_test_project,CTK_b36f163f,,,,,,protected
+CTK_b56258ba,CTK_b56258ba,,CTK_b56258ba,,,,,,protected
+CTK_b6cce8cf,CTK_b6cce8cf,,CTK_b6cce8cf,,,,,,protected
+CTK_bdf6ae0f,CTK_bdf6ae0f,,CTK_bdf6ae0f,,,,,,protected
+CTK_c023cffe,CTK_c023cffe,CTK test project,CTK_c023cffe,,,,,,protected
+CTK_c097a213,CTK_c097a213,,CTK_c097a213,,,,,,protected
+CTK_c2363dce,CTK_c2363dce,,CTK_c2363dce,,,,,,protected
+CTK_c3540f17,CTK_c3540f17,,CTK_c3540f17,,,,,,protected
+CTK_c3fbc11c,CTK_c3fbc11c,CTK_test_project,CTK_c3fbc11c,,,,,,protected
+CTK_c44700b6,CTK_c44700b6,CTK_test_project,CTK_c44700b6,,,,,,protected
+CTK_d46da802,CTK_d46da802,,CTK_d46da802,,,,,,protected
+CTK_d5f1704d,CTK_d5f1704d,,CTK_d5f1704d,,,,,,protected
+CTK_d80f9cf4,CTK_d80f9cf4,,CTK_d80f9cf4,,,,,,protected
+CTK_d8e35a79,CTK_d8e35a79,CTK_test_project,CTK_d8e35a79,,,,,,protected
+CTK_d97e9bbd,CTK_d97e9bbd,,CTK_d97e9bbd,,,,,,protected
+CTK_dd3b131c,CTK_dd3b131c,,CTK_dd3b131c,,,,,,protected
+CTK_e0b2ad56,CTK_e0b2ad56,,CTK_e0b2ad56,,,,,,protected
+CTK_e63766c4,CTK_e63766c4,,CTK_e63766c4,,,,,,protected
+CTK_ea94bec8,CTK_ea94bec8,CTK_test_project,CTK_ea94bec8,,,,,,protected
+CTK_ee6fa48f,CTK_ee6fa48f,,CTK_ee6fa48f,,,,,,protected
+CTK_ef5fc422,CTK_ef5fc422,CTK_test_project,CTK_ef5fc422,,,,,,protected
+CTK_f6985ae1,CTK_f6985ae1,,CTK_f6985ae1,,,,,,protected
+CTK_f87808cb,CTK_f87808cb,CTK test project,CTK_f87808cb,,,,,,protected
+CTK_fa4d6176,CTK_fa4d6176,,CTK_fa4d6176,,,,,,protected
+CTK_fa8c7273,CTK_fa8c7273,,CTK_fa8c7273,,,,,,protected
+CTK_fe04651b,CTK_fe04651b,,CTK_fe04651b,,,,,,protected
+CTK_rwqrewq,CTK_rwqrewq,,CTK_rwqrewq,,,,,,protected
+CVRG0001,CVRG LDDMM Cardiac Data,Testing upload of cardiac data.,CVRG0001,,,,1,,protected
+Day3Data,Day3Data,,Day3Data,,,,1,,protected
+DCMPHANTOM,Phantom DICOM data,,Dicomphantoms,,3,,,,public
+default,default,test xnd upload project,default,,5,,1,,protected
+DicomRT,DicomRT Samples,These are data samples for the DicomRT extension to DICOM.,DicomRT Samples,,,,,,public
+DOT_fMRI,Subject matched Diffuse Optical Tomography and fMRI: language tasks and resting state,This data set is composed of subject-matched data recorded non concurrently with Diffuse Optical Tomography (DOT) and fMRI. Task-based responses to four language tasks were recorded in five subjects. Resting state data was also collected in a set of eight subjects.,DOT_fMRI_matched_dataset,Diffuse optical tomography fMRI Language resting state functional connectivity,16,,,,protected
+_DRC_test1,_DRC_test1,_DRC_test1,_DRC_test1,,1,,,,public
+DTIChallenge12,MICCAI 2012 DTI Tractography Challenge,MICCAI 2012 DTI Tractography Challenge 2nd Edition,MICCAI2012 DTI Challenge,"DTI, Neurosurgery, Tractography",14,,,,protected
+eTRIKS,Optimise,Data repository for linking XNAT into eTRIKS repository,eTRIKS-Imaging,,9,,,,public
+FCStateClassif,"Tracking ongoing cognition in individuals using brief, whole-brain functional connectivity patterns",,FCvsCognitiveState,,,,,,protected
+fMRI_AD_mouse,Resting state fMRI and diffusion tensor imaging in a mouse model of cerebral amyloidosis,"ArcAbeta mouse model of AD was studies in a cross-sectional design at 1, 2, 5, 8, 11, 19 and 21 months. Resting state fMRI and DTI was performed in isoflurane anesthetized mice using a 9.4T Biospec magnet, and a cryogenic surface reciever coil. 
+For details, please refer to Grandjean et al. J.Neuro 2014",RS fMRI ArcAbeta mouse,"resting-state, functional connectivity, ",245,,,,public
+fMRI_AD_mouse2,fMRI/MRI phenotyping of 3 differnet APP transgenic mouse models of Alzheimer&apos;s disease,"3 different APP transgenic strains were investigated using resting-state fMRI, volumetric MRI, and diffusion weighted imaging. 
+Each strain present different type of amyloid pathologies: 
+E22{delta}A{beta} with Swedish mutation (K670N+M671L) and Osaka mutation (E693{delta}) presents only intracellular amyloid deposits.
+ArcA{beta} with Swedish mutation (K670N+M671L) and the Arctic mutation (E693G)  presents intracellular amyloid deposits, parenchymal and vascular amyloid plaques. 
+PSAPP with Swedish mutation (K670N+M671L) and PS1 {delta}E9 mutation presents parenchymal plaques.
+For details, see: Grandjean et al. Complex interplay between brain function and structure during cerebral amyloidosis in APP transgenic mouse strains revealed by multi-parametric MRI comparison , Neuroimage 2016",fMRI/MRI of APP tg lines,"APP, ArcAbeta, PSAPP, alzheimer, fMRI",68,,,,public
+fMRI_ane_mouse,Resting-state anesthetic protocol comparison in mice,"BOLD Resting-state fMRI in mice were acquired on a 9.4T Bruker magnet using a 2x2 phased-array cryogenic coil. Anesthesia protocols are compared: Isoflurane 1%, Medetomidine 0.1mg/kg+0.2mg/kg/h, Medetomidine 0.05mg/kg+0.1mg/kg/h, Propofol 30 mg/kg, Urethane 1.5g/kg and Isoflurane 0.5% + Medetomidine 0.05mg/kg+0.1mg/kg/h combined. For details, see Grandjean, Schroeter et al. Neuroimage 2014",fMRI anesthesia in mice,"resting state, isoflurane, medetomidine, propofol, urethane, mice, mouse, rodent",64,,,,public
+fMRI_DK,fMRI data for integration of rules and preferences in human decision-making,"fMRI data for integration of rules and preferences in human decision-making
+Data acquired in Hospital Pitie Salpetriere",fMRI decision-making,"human, 3T MRI TRIO Siemens",46,,,,protected
+FOS_MMC,FOS Task - Block Design,,FOS Task,"Motor learning, consolidation",3,,,,protected
+Groupwise,NAMIC Groupwise Registration,"The NAMIC Groupwise Registration Tutorial represents the convergence of groupwise registration algorithms from Polina Golland's lab at MIT, data from Martha Shenton's group at the Harvard Medical School, and the XNAT project. The goal is to showcase the use of these NAMIC tools and promote the use of the groupwise registration methods throughout the NAMIC community.",NAMIC Groupwise Reg,"NAMIC, groupwise registration, image registration",50,,,,protected
+GWE,GWE Integration Test Data,,GWE Test Data,,1,,,,public
+H,Humor,,Humor,fMRI,,,,,protected
+HACKEDPROJECT,HACKEDPROJECT,Added with CSRF attack from google.com,HACKEDPROJECT,,,,,,protected
+IGT1,SPL Image Guided Therapy,Public access data from the Image Guided Therapy program in the Surgical Planning Laboratory at Brigham and Womens Hospital,IGT1,structural mri patient cases surgery surgical,9,,,,protected
+IGT_FMRI_NEURO,Functional Data for Neurosurgical Planning,"This is a collection of 44 publicly available functional mri scans for neurosurgery. The series description is the task performed for that
+particular series.",NCIGT_Functional_Neuro,,44,,,,public
+IGT_GLIOMA,NCIGT Intra-operative  MRT Glioma Resection,"This is a collection of 33 publicly available MR data sets containing brain tumors (gliomas).  Each data set contains multiple MR acquisitions (T1, T2, or SPGR) within a single series, as well as a description of the tumor, its size, grade, and location. ",NCIGT_Intraop_Glioma,,33,,,,public
+ISMRMRD,ISMRMRD Paper,Raw data for the ISMRMRD manuscript.,ISMRMRD,,1,,,,public
+L2struc,Effects of bilingualism on brain structure and function,,Bilingualism and brain,,45,,,,public
+LACT_HD,Label Atlas Correction Tool,"An open-source label atlas correction tool and preliminary results on Huntingtons Disease whole-brain MRI atlases
+
+Jessica LeeAnn Forbes,  Eun Young Kim,  Jane S Paulsen* and  Hans J Johnson
+Original Research, Front. Neuroinform.
+Submitted on: 20 Nov 2015, Edited by: Qingming Luo ",LACT_HD,"brain MRI, label atlas, open-source, Multi-Modal, ITK, mulit-atlas, Huntingtons disease",,,,,protected
+LONI_PL_ICBM,LONI_PL_ICBM,,LONI Pipeline ICBM Data,,21,,,,public
+mBIRN_demo,mBIRN_demo,,mBIRN_demo,,,,,,protected
+MCIC,The Mind Clinical Imaging Consortium (MCIC): A Multisite MRI Study of Schizophrenia,,MCIC,,760,,,,protected
+ME_epi_mouse,Multi-echo gradient-echo EPI resting-state fMRI in mice,"A dataset of 14 multi-echo-epi scans of the mouse brain at rest, acquired at 9.4T with a 2x2 phased-array cryogenic reciever coil",ME-EPI Mouse,"ME-EPI, mouse, rodent",14,,,,protected
+MEG_fMRI,MEG-fMRI Integration,,MEG-fMRI Integration,"MEG, fMRI, multimodal",,,,,public
+MVPA_FEAT_CONJ,Conjunctive coding of complex object features in human anterior temporal cortex,,Conjunctive Coding,,19,,,,protected
+MVPA_true,Decoding subjectively true &#147;Yes/No&#148; thoughts in the human brain using fMRI,Human fMRI data for the paper &quot;Decoding subjectively true &#147;Yes/No&#148; thoughts in the human brain using fMRI&quot;,Decoding true answers,"dorsolateral prefrontal cortex, fMRI, multivariate pattern analysis, searchlight, truthful answer",,,,,public
+mynewtestproject,mynewtestproject,,mynewtestproject,,,,,,protected
+NCIGT_PROSTATE,Prostate MRI Database,"BWH MRI Prostate data. 10 datasets, including a derived segmentation
+series with labelmaps.
+",BWH MRI Prostate,,10,,,,public
+NeuroMRT,NCIGT-Harvard-Brigham Neurosurgical Intraoperative Image Database,Public access neurosurgical cases made available by the Image Guided Therapy Program at Harvard-Brigham and Women's Hospital.,Neuro-MRT Image Database,neurosurgery planning preoperative MRI BWH SPL,76,,,,public
+Neuro_MRT_g,NCIGT-Harvard-BWH Neurosurgical Intraoperative Image Database GENESIS format data,"Public access neurosurgical cases made available by the Image Guided Therapy Program at Harvard-Brigham and Women's Hospital. This data was
+originally in GENESIS format",Neuro-MRT genesis data,neurosurgery planning preoperative MRI BWH SPL,27,,,,public
+NEWPROJ,NEWPROJ,,NEWPROJ,,,,,,protected
+NHRD,NAMIC High Resolution DTI,,NAMIC High Res DTI,MRI MPRAGE DTI,1,,,,public
+nosetests,nosetests,Random_project_description_36,nosetests,,7,2,,,protected
+NPTEST,NipypeTest,Test project to store nipype output.,NipypeTest,"nipype, ",,,,,public
+NT,NITRC Test,this is a test,NT,,1,,,,protected
+NUDataSharing,NU Schizophrenia Data and Software Tool Federation using BIRN Infrastructure (NUSDAST),"To access data, please read and sign the &lt;a href=&quot;http://niacal.northwestern.edu/nusdast_accessors/new&quot;&gt;
+Data Use Agreement&lt;/a&gt; first. 
+As part of the growing field of Computational Anatomy (CA), our group has developed tools to identify and characterize abnormalities of brain structure in subjects with schizophrenia, some of which have the characteristics of disease endophenotypes. In this effort, we have collected high-resolution magnetic resonance (MR) datasets from large cohorts of subjects using the same MR scanner platform and sequences. In addition, we have tested and validated atlas-based large-deformation diffeomorphic mapping tools for generating segmentations of brain structures as represented in high-resolution MR images. 
+
+&lt;p&gt;&lt;p&gt;
+This project will make available MR images, demographic, clinical, neurocognitive and genotype data from 139 subjects with schizophrenia and 136 control subjects matched for age and gender, in a federated database.  
+
+&lt;p&gt;&lt;p&gt;
+All MR data are in AnalyzeTM format.  The dataset includes high-resolution T1- (FLASH and MPRAGE) and T2- (TSE) weighted MR scans, in AnalyzeTM format.  The dataset also includes manual segmentation for: Hippocampus, Amygdala, Thalamus, Basal Ganglia (caudate nucleus, nucleus accumbens, putamen, globus pallidus), Cingulate gyrus, include the anterior, posterior segments, Prefrontal cortex (including superior, middle and inferior gyri), and Parahippocampal gyrus (including entorhinal, perirhinal and parahippocampal cortices).
+
+&lt;p&gt;&lt;p&gt;
+The clinical datasets include diagnosis, age, gender, parental socioeconomic status, as well as measures of the severity of psychopathology.
+
+&lt;p&gt;&lt;p&gt;
+The battery of neuropsychological tests includes tasks relevant to prior studies of cognition in schizophrenia. Tasks are grouped into the following four domains: Working Memory, Episodic Memory, Executive Function, Crystallized Intelligence.
+
+&lt;p&gt;&lt;p&gt;
+The genotyping data will include BDNF (rs6265), EGFR (rs10228436), FGF-2 (rs1048201), and IL-3 (rs40401).  
+
+&lt;p&gt;&lt;p&gt;
+These data can be used to test and validate new brain mapping tools.
+These data can be used to generate or test new hypotheses related to abnormalities of brain structures and neural networks in individuals with schizophrenia.
+
+&lt;p&gt;&lt;p&gt;
+This project was funded by the NIMH: 1R01 MH084803 
+",NUSDAST,"Schizophrenia, neuroimaging, BIRN",569,,,,protected
+OJNFC,"Orange Juice, Not From Concentrate",Test 123,"OJ, NFC","Orange Juice, Not From Concentrate",,,,,protected
+OlgaKotelko,Structural MRI data of Olga Kotelko (1919-2014): a world-famous nonagenarian track and field athlete,"This is the MRI data (DTI, anatomical, and T2-WI) of an exceptional nonagenarian Olga Kotelko (1919-2014), acquired in 2012 when she was 93. Olga began engaging in regular exercise after retiring at 65, trained for competitions since age of 77, and as of June 2014 held over 30 world records in her age category in track-and-field. https://en.wikipedia.org/wiki/Olga_Kotelko
+The data is published in Neurocase http://dx.doi.org/10.1080/13554794.2015.1074709",Olga Kotelko&apos;s brain,aging oldest-old athlete DTI white matter hyperintensity hippocampus fitness,1,,,,public
+Orientation,Neural Networks and Orientation,fMRI data set on spatial orientation,Orientation,"fMRI, spatial orientation, resting state",,,,,public
+Outcomes,Resting-state functional connectivity predicts longitudinal change in autistic traits and adaptive functioning in autism,31 resting-state fMRI and structural scans from individuals with Autism Spectrum Disorder. Outcome measures (ABAS and SRS scores) are included as well. ,Autism outcomes rs-fMRI,"autism, ASD, rs-fMRI, resting-state, machine learning",,,,,protected
+PA,PA,,PA,,,,,,protected
+PALS,"PALS: Population-Average, Landmark- and Surface-based atlas","Cases composing the PALS atlas as borrowed from the OASIS cross-sectional data set. Includes raw T1 images, FSL's FAST tissue-segmented images, and Freesurfer-generated surfaces and subcortical parcellations.",PALS,,11,,,,public
+PB,PB,,PB,,,,,,protected
+PBNC,Pediatric Bipolar Neuroimaging Consortium,A central location for sharing images for the PBNC,PBNC,,18,,,,protected
+PFSnovMRI,Functional MRI dataset of episodic simulation study,"This dataset contains functional MRI data investigating repetition in episodic simulation, and was made accessible to go along with a paper. ",fMRI episodic simulation,"fmri, hippocampus, episodic simulation, repetition",,,,,protected
+Plasticity,Neural mechanisms of brain plasticity with complex cognitive training in healthy seniors,,Brain plasticity,aging,,,,,protected
+PRO123,PRO123,,PRO123,,1,,,,protected
+PROBE,fMRI data for model PROBE experiment,,fMRI PROBE,,80,,,,public
+PROJ234,PROJ234,,PROJ234,,1,,,,protected
+project,Project,,project,,12,,,Owners,private
+qXnat_0a2e,qXnat_0a2e,,qXnat_0a2e,,,,,,protected
+qXnat_6fa1,qXnat_6fa1,,qXnat_6fa1,,,,,,protected
+qXnat_7bb3,qXnat_7bb3,,qXnat_7bb3,,,,,,protected
+qXnat_95d07390,qXnat_95d07390,,qXnat_95d07390,,,,,,protected
+qXnatAPITest_Project_95d07390,qXnatAPITest_Project_95d07390,,qXnatAPITest_Project_95d07390,,,,,,protected
+qXnatAPITest-Project-95d07390,qXnatAPITest-Project-95d07390,,qXnatAPITest-Project-95d07390,,,,,,protected
+qXnat_f883,qXnat_f883,,qXnat_f883,,,,,,protected
+Sample_DICOM,Sample DICOM dataset,,Sample_DICOM,DICOM,1,,,,public
+slicedrop,Slice:Drop,"Yo, drop tha slize!!!",Slice:Drop,,,,,,public
+SPL_IGT,NCIGT,NCIGT MRT Tumor Resection,NCIGT SPL,,140,,3,,protected
+STSL,Spatiotemporal object identity mapping,A collection of functional mri datasets used to map areas involved in individual-level object categorization,Object identity mapping,,26,,,,protected
+surfmask_smpl,Surface masking samples,The collection of structural T1 MRI scans from &quot;Functional Data for Neurosurgical Planning&quot; (IGT_FMRI_NEURO) project processed with surface obscuring algorithm.,surfmask_smpl,"surface mask, privacy",43,,,,public
+switchigdmnsn,Anticipatory processes in brain state switching ,Anticipatory processes in brain state switching (rest-to-task and task-to-rest) implicating the DMN and SN (rAI). ,state switching,"State switching, task switching, DMN, SN, Insula ",,,,,protected
+T1rho,Functional T1rho Imaging,Functional T1rho Imaging Data,Functional T1rho,"Retinotopic Mapping, T1rho, BOLD, ASL",,,,,protected
+testandaPA,testandaT,,testandaRT,,1,,,,protected
+testProject_00,testProject_002,,testProject_002,,,,,,protected
+TESTSG,TESTSG,,TESTSG,,,,,,protected
+testSJ2,testSJ2,test2,testSJ2,test2,,,,,protected
+TP_Abbr,Test Project,My_Description,Test Project Title,My_Keywords,,,,,public
+unknown,unknown,,unknown,,,,,,protected
+Upload,Upload Sample,,Upload Sample,,,,,,public
+Volatile,Volatile,itsnotme,Volatile,itsher,97,3,,,protected
+XNATSlicerTest,XNATSlicerTest,,XNATSlicerTest,,1,,1,,public
+XnatSlicerTest2,XnatSlicerTest2,,XnatSlicerTest2,,,,,,protected
+XTE_1,XNAT_Test_Emory_1,,XNAT_Test_Emory_1,XTE_Keyword_1,,,,,public
+XTE_2,XNAT_Test_Emory_2,,XNAT_Test_Emory_2,XTE_Keyword_2,,,,,public
+XTE_3,XTE_3,XTE_3_Description,XTE_3,XTE_3_Keywords,,,,,protected
+XYZ,XYZ,,XYZ,,,,,,protected
+XYZZZZ,XYZZZZ,,XYZZZZ,,,,,,protected
+zip_test,zip_test,zip test,zip_test,,,,,,public
